@@ -1,10 +1,11 @@
+import os
 import requests
 import time
 
 def crawl_github_algorithm_issues():
     API_URL = "https://api.github.com/search/issues"
 
-    GITHUB_TOKEN = ""
+    GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
     headers = {
         "Accept": "application/vnd.github.v3+json"
