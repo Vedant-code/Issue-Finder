@@ -121,10 +121,6 @@ def crawl_github_algorithm_issues():
                 query_count += 1
                 total_collected += 1
 
-            # Save after every page so progress isn't lost
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                f.write("\n".join(md_lines))
-
             print(f"  Page {page}: {new_issues} new issues (query total: {query_count} / {total_count} available)")
 
             if page * RESULTS_PER_PAGE >= min(total_count, MAX_PAGES * RESULTS_PER_PAGE):
@@ -133,6 +129,13 @@ def crawl_github_algorithm_issues():
 
             # Polite delay between pages
             time.sleep(6)
+
+        if query_count == 0:
+            md_lines.append("_No open issues found for this query._\n")
+
+        # Save after every query so progress is never lost, even on empty results
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(md_lines))
 
         print(f"  Query {i} done — {query_count} issues collected.")
 
