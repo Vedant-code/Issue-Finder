@@ -1,0 +1,80 @@
+import requests
+import time
+
+def crawl_github_algorithm_issues():
+    # GitHub's Search API endpoint for issues
+    API_URL = "https://api.github.com/search/issues"
+    
+    # Optional but highly recommended: Add your GitHub Personal Access Token here
+    # Unauthenticated requests are limited to 10 searches per minute.
+    # Authenticated requests get 30 searches per minute.
+    GITHUB_TOKEN = "" # e.g., "ghp_yourtokenhere..."
+    
+    headers = {
+        "Accept": "application/vnd.github.v3+json"
+    }
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"token {GITHUB_TOKEN}"
+
+    # These are the "Cheat Code" queries designed specifically for Research Engineer tiers
+    queries = [
+        # Query 1: Looking for explicit algorithmic bottlenecks in Python AI/Data repos
+        'is:issue is:open "O(n^2)" OR "time complexity" label:performance language:python',
+        
+        # Query 2: Hunting for C++ memory and architecture optimization
+        'is:issue is:open "memory leak" OR "space complexity" label:enhancement language:cpp',
+        
+        # Query 3: Finding core algorithmic help wanted in distributed systems/graphs
+        'is:issue is:open label:algorithm label:"help wanted" language:python',
+        
+        # Query 4: General system bottlenecks needing architecture overhauls
+        'is:issue is:open "bottleneck" label:performance language:cpp'
+    ]
+
+    print("🚀 Starting GitHub API Crawler for Algorithm/Architecture Issues...\n")
+
+    for i, query in enumerate(queries, 1):
+        print(f"--- Running Query {i}: {query} ---")
+        
+        params = {
+            "q": query,
+            "sort": "updated",
+            "order": "desc",
+            "per_page": 5 # Limit to top 5 most recently updated issues per query
+        }
+
+        try:
+            response = requests.get(API_URL, headers=headers, params=params)
+            
+            if response.status_code == 200:
+                data = response.json()
+                issues = data.get("items", [])
+                
+                if not issues:
+                    print("No open issues found for this query right now.\n")
+                    continue
+                
+                for issue in issues:
+                    # Filter out issues that have pull requests already attached
+                    if "pull_request" not in issue:
+                        repo_url = issue["repository_url"].replace("api.github.com/repos/", "github.com/")
+                        print(f"Title: {issue['title']}")
+                        print(f"Repo:  {repo_url}")
+                        print(f"Link:  {issue['html_url']}")
+                        print("-" * 50)
+            
+            elif response.status_code == 403:
+                print("⚠️ Rate limit hit. Consider adding a GitHub Token.")
+                break
+            else:
+                print(f"Error fetching data: {response.status_code} - {response.text}")
+                
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            
+        # Sleep slightly to respect rate limits if no token is used
+        time.sleep(6) 
+        print("\n")
+
+if __name__ == "__main__":
+    crawl_github_algorithm_issues()
