@@ -46,17 +46,21 @@ def crawl_github_algorithm_issues():
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
 
     queries = [
-        'is:issue is:open no:assignee "O(n^2)" OR "time complexity" label:performance language:python',
-        'is:issue is:open no:assignee "memory leak" OR "bottleneck" label:performance language:cpp',
-        'is:issue is:open no:assignee label:algorithm label:"help wanted" language:python',
-        'is:issue is:open no:assignee "bottleneck" label:"help wanted" language:cpp',
+        'is:issue is:open no:assignee label:"good first issue" "graph" OR "knowledge graph" language:python',
+        'is:issue is:open no:assignee label:"good first issue" "time complexity" OR "O(n)" OR "O(n^2)" language:python',
+        'is:issue is:open no:assignee label:"good first issue" "dynamic programming" OR "greedy" OR "recursion" language:python',
+        'is:issue is:open no:assignee label:"good first issue" label:algorithm language:python',
+        'is:issue is:open no:assignee "neuro-symbolic" OR "symbolic reasoning" language:python',
+        'is:issue is:open no:assignee label:"good first issue" "tree" OR "heap" OR "linked list" language:python',
     ]
 
     query_labels = [
-        'Python — `O(n^2)` / `time complexity` + `performance`',
-        'C++ — `memory leak` / `bottleneck` + `performance`',
-        'Python — `algorithm` + `help wanted`',
-        'C++ — `bottleneck` + `help wanted`',
+        'Graph-based / Knowledge Graphs (`good first issue`)',
+        'Time Complexity & Big-O (`good first issue`)',
+        'Problem Solving - DP/Greedy/Recursion (`good first issue`)',
+        'General Algorithms (`good first issue` + `algorithm` label)',
+        'Neuro-Symbolic AI (rare, might not have good first issue label)',
+        'Data Structures - Trees/Heaps/Linked Lists (`good first issue`)',
     ]
 
     print("Starting GitHub API Crawler for Algorithm/Architecture Issues...\n")

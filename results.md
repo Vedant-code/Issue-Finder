@@ -1,717 +1,2037 @@
 # GitHub Algorithm & Architecture Issues
 
-_Generated on 2026-06-04 16:42:17_
+_Generated on 2026-06-04 23:28:23_
 
 
-## Query 1: Python — `O(n^2)` / `time complexity` + `performance`
+## Query 1: Graph-based / Knowledge Graphs (`good first issue`)
 
-### [figure-gap][Fig.4] Add atlas-scale NSCLC cohort conserved/patient-specific niche panels
-- **Repo:** [https://github.com/PeterPonyu/niche-lens-st](https://github.com/PeterPonyu/niche-lens-st)
-- **Issue:** [https://github.com/PeterPonyu/niche-lens-st/issues/140](https://github.com/PeterPonyu/niche-lens-st/issues/140)
+### Add support for natural language native queries in the explorer pannel for website
+- **Repo:** [https://github.com/CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)
+- **Issue:** [https://github.com/CodeGraphContext/CodeGraphContext/issues/996](https://github.com/CodeGraphContext/CodeGraphContext/issues/996)
 
-### FEATURE: Add eviction policy to AppDiscovery._pixmap_cache to prevent unbounded memory growth
-- **Repo:** [https://github.com/DewaldOosthuizen/py-tray-command-launcher](https://github.com/DewaldOosthuizen/py-tray-command-launcher)
-- **Issue:** [https://github.com/DewaldOosthuizen/py-tray-command-launcher/issues/81](https://github.com/DewaldOosthuizen/py-tray-command-launcher/issues/81)
+### [ONBOARD: 2 RTC] Star + Review an Open PR
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2782](https://github.com/Scottcjn/rustchain-bounties/issues/2782)
 
-### [P2] Security/robustness hardening of fetch+parse paths: SPARQL injection, XXE/billion-laughs, and a court-parser ReDoS
-- **Repo:** [https://github.com/henrikaavik/estonian-legal-ontology](https://github.com/henrikaavik/estonian-legal-ontology)
-- **Issue:** [https://github.com/henrikaavik/estonian-legal-ontology/issues/356](https://github.com/henrikaavik/estonian-legal-ontology/issues/356)
+### [ONBOARD: 1 RTC] Star + File Your First Bug Report
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2781](https://github.com/Scottcjn/rustchain-bounties/issues/2781)
 
-### Editing large SQL queries can be slow to update when typing
+### feat: add waggle-mcp stats CLI command for graph composition summary
+- **Repo:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp)
+- **Issue:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/251](https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/251)
+
+### Add additional fingerprints
+- **Repo:** [https://github.com/MLCIL/scikit-fingerprints](https://github.com/MLCIL/scikit-fingerprints)
+- **Issue:** [https://github.com/MLCIL/scikit-fingerprints/issues/66](https://github.com/MLCIL/scikit-fingerprints/issues/66)
+
+### feat: add WAGGLE_LOG_FORMAT=plain toggle for local development
+- **Repo:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp)
+- **Issue:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/246](https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/246)
+
+### test: add tests for graph_ui.render_graph_editor_html
+- **Repo:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp)
+- **Issue:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/241](https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/241)
+
+### test: add tests for runtime_context.py ContextVar lifecycle
+- **Repo:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp](https://github.com/Abhigyan-Shekhar/Waggle-mcp)
+- **Issue:** [https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/240](https://github.com/Abhigyan-Shekhar/Waggle-mcp/issues/240)
+
+### Implement LangGraph integration example
+- **Repo:** [https://github.com/adam2go/tilo-framework](https://github.com/adam2go/tilo-framework)
+- **Issue:** [https://github.com/adam2go/tilo-framework/issues/5](https://github.com/adam2go/tilo-framework/issues/5)
+
+### [Feature Request]: Enforce the strict type checks
+- **Repo:** [https://github.com/oppia/oppia](https://github.com/oppia/oppia)
+- **Issue:** [https://github.com/oppia/oppia/issues/23496](https://github.com/oppia/oppia/issues/23496)
+
+### [Feature Request] Unify format of the docstring for all code
+- **Repo:** [https://github.com/camel-ai/camel](https://github.com/camel-ai/camel)
+- **Issue:** [https://github.com/camel-ai/camel/issues/911](https://github.com/camel-ai/camel/issues/911)
+
+### VSCode Extension: Multi-Repository Impact Analysis
+- **Repo:** [https://github.com/CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)
+- **Issue:** [https://github.com/CodeGraphContext/CodeGraphContext/issues/567](https://github.com/CodeGraphContext/CodeGraphContext/issues/567)
+
+### feat: build landing page for codectx.granth.tech
+- **Repo:** [https://github.com/hey-granth/codectx](https://github.com/hey-granth/codectx)
+- **Issue:** [https://github.com/hey-granth/codectx/issues/2](https://github.com/hey-granth/codectx/issues/2)
+
+### [FEATURE] Entity graph: export to GEXF / GraphML for Gephi & Maltego
+- **Repo:** [https://github.com/NovaCode37/Prism-platform](https://github.com/NovaCode37/Prism-platform)
+- **Issue:** [https://github.com/NovaCode37/Prism-platform/issues/62](https://github.com/NovaCode37/Prism-platform/issues/62)
+
+### Bug: constrained string regex + min/max length may produce invalid values
+- **Repo:** [https://github.com/litestar-org/polyfactory](https://github.com/litestar-org/polyfactory)
+- **Issue:** [https://github.com/litestar-org/polyfactory/issues/124](https://github.com/litestar-org/polyfactory/issues/124)
+
+### Function to show when PT or PT + QEM is helpful
+- **Repo:** [https://github.com/unitaryfoundation/mitiq](https://github.com/unitaryfoundation/mitiq)
+- **Issue:** [https://github.com/unitaryfoundation/mitiq/issues/2615](https://github.com/unitaryfoundation/mitiq/issues/2615)
+
+### Dag version: Graph view is not updated correctly when user switches versions from the drop-down
+- **Repo:** [https://github.com/apache/airflow](https://github.com/apache/airflow)
+- **Issue:** [https://github.com/apache/airflow/issues/56060](https://github.com/apache/airflow/issues/56060)
+
+### [Bug]: Large file size when using fill_between()
+- **Repo:** [https://github.com/matplotlib/matplotlib](https://github.com/matplotlib/matplotlib)
+- **Issue:** [https://github.com/matplotlib/matplotlib/issues/22803](https://github.com/matplotlib/matplotlib/issues/22803)
+
+### [BOUNTY: 1 RTC] Answer Questions in GitHub Discussions (Up to 10 RTC)
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/728](https://github.com/Scottcjn/rustchain-bounties/issues/728)
+
+### Document requirement to serve JSON embed files from HTTP server
+- **Repo:** [https://github.com/holoviz/panel](https://github.com/holoviz/panel)
+- **Issue:** [https://github.com/holoviz/panel/issues/1129](https://github.com/holoviz/panel/issues/1129)
+
+### Allow sorting Lifecycle graph bars
 - **Repo:** [https://github.com/PostHog/posthog](https://github.com/PostHog/posthog)
-- **Issue:** [https://github.com/PostHog/posthog/issues/60974](https://github.com/PostHog/posthog/issues/60974)
+- **Issue:** [https://github.com/PostHog/posthog/issues/14579](https://github.com/PostHog/posthog/issues/14579)
 
-### The problem of different broadening coefficients of multimolecules
-- **Repo:** [https://github.com/radis/radis](https://github.com/radis/radis)
-- **Issue:** [https://github.com/radis/radis/issues/740](https://github.com/radis/radis/issues/740)
+### Create/design new elements
+- **Repo:** [https://github.com/devanshi14malhotra/GitCanvas](https://github.com/devanshi14malhotra/GitCanvas)
+- **Issue:** [https://github.com/devanshi14malhotra/GitCanvas/issues/24](https://github.com/devanshi14malhotra/GitCanvas/issues/24)
 
-### [Medium][Performance] O(n^2) cross-page URL dedup and serial page fetch in list_hackathon_project_urls
-- **Repo:** [https://github.com/ch1kim0n1/devpost-api](https://github.com/ch1kim0n1/devpost-api)
-- **Issue:** [https://github.com/ch1kim0n1/devpost-api/issues/13](https://github.com/ch1kim0n1/devpost-api/issues/13)
+### [BOUNTY: 1 RTC] BoTTube profile setup: avatar + bio + first published video
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/1504](https://github.com/Scottcjn/rustchain-bounties/issues/1504)
 
-### asyncio.protocols._feed_data_to_buffered_proto: avoid O(N^2) bytes slicing
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/150621](https://github.com/python/cpython/issues/150621)
+### Add linking of read/write on telemetry UI
+- **Repo:** [https://github.com/apache/burr](https://github.com/apache/burr)
+- **Issue:** [https://github.com/apache/burr/issues/276](https://github.com/apache/burr/issues/276)
 
-### Change Log & Release Notes Template
-- **Repo:** [https://github.com/SoroScan/soroscan](https://github.com/SoroScan/soroscan)
-- **Issue:** [https://github.com/SoroScan/soroscan/issues/666](https://github.com/SoroScan/soroscan/issues/666)
+### [BOUNTY: 5-7 RTC] Write Video Generation Guides for BoTTube Agents
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/732](https://github.com/Scottcjn/rustchain-bounties/issues/732)
 
-### Project Roadmap & Strategic Vision
-- **Repo:** [https://github.com/SoroScan/soroscan](https://github.com/SoroScan/soroscan)
-- **Issue:** [https://github.com/SoroScan/soroscan/issues/665](https://github.com/SoroScan/soroscan/issues/665)
+### Add more search space implementations
+- **Repo:** [https://github.com/rhordoan/orc-observatory](https://github.com/rhordoan/orc-observatory)
+- **Issue:** [https://github.com/rhordoan/orc-observatory/issues/2](https://github.com/rhordoan/orc-observatory/issues/2)
 
-### Troubleshooting & FAQ
-- **Repo:** [https://github.com/SoroScan/soroscan](https://github.com/SoroScan/soroscan)
-- **Issue:** [https://github.com/SoroScan/soroscan/issues/663](https://github.com/SoroScan/soroscan/issues/663)
+### Polygon tries to allocate 8.7 PiB of memory when rounding corners
+- **Repo:** [https://github.com/ManimCommunity/manim](https://github.com/ManimCommunity/manim)
+- **Issue:** [https://github.com/ManimCommunity/manim/issues/3052](https://github.com/ManimCommunity/manim/issues/3052)
 
-### Database Administration & Maintenance Guide
-- **Repo:** [https://github.com/SoroScan/soroscan](https://github.com/SoroScan/soroscan)
-- **Issue:** [https://github.com/SoroScan/soroscan/issues/659](https://github.com/SoroScan/soroscan/issues/659)
+### [BOUNTY: 0.5 RTC/repo] Watch Our Repos — Stay Notified, Earn RTC (Up to 10 RTC)
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/731](https://github.com/Scottcjn/rustchain-bounties/issues/731)
 
-### `_abc._abc_subclasscheck` has very poor performance and (I think) a memory leak
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/92810](https://github.com/python/cpython/issues/92810)
+### Decode SettlementApproval in EAS subgraph
+- **Repo:** [https://github.com/FUYOH666/attestrwa](https://github.com/FUYOH666/attestrwa)
+- **Issue:** [https://github.com/FUYOH666/attestrwa/issues/5](https://github.com/FUYOH666/attestrwa/issues/5)
 
-### HDBSCAN performance issues compared to original hdbscan implementation (likely because Boruvka algorithm is not implemented)
-- **Repo:** [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
-- **Issue:** [https://github.com/scikit-learn/scikit-learn/issues/31503](https://github.com/scikit-learn/scikit-learn/issues/31503)
+### Test: cover examples list output includes graph flags
+- **Repo:** [https://github.com/Krako-Labs/KORA](https://github.com/Krako-Labs/KORA)
+- **Issue:** [https://github.com/Krako-Labs/KORA/issues/206](https://github.com/Krako-Labs/KORA/issues/206)
 
-### perf: O(N^2) ACWR historical rebuild in _refresh_fitness_table
-- **Repo:** [https://github.com/altiSocke/coachctl](https://github.com/altiSocke/coachctl)
-- **Issue:** [https://github.com/altiSocke/coachctl/issues/3](https://github.com/altiSocke/coachctl/issues/3)
+### Add support for simpler windows usecase
+- **Repo:** [https://github.com/CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)
+- **Issue:** [https://github.com/CodeGraphContext/CodeGraphContext/issues/572](https://github.com/CodeGraphContext/CodeGraphContext/issues/572)
 
-### [Perf Improver] Monthly Activity 2026-05
-- **Repo:** [https://github.com/nocarryr/lupy](https://github.com/nocarryr/lupy)
-- **Issue:** [https://github.com/nocarryr/lupy/issues/106](https://github.com/nocarryr/lupy/issues/106)
+### LBE Pretraining Loss Produces NaN on Saturated Logits (CIFAR-10, Several Seeds)
+- **Repo:** [https://github.com/XiXiphus/PU-Bench](https://github.com/XiXiphus/PU-Bench)
+- **Issue:** [https://github.com/XiXiphus/PU-Bench/issues/1](https://github.com/XiXiphus/PU-Bench/issues/1)
 
-### count_failure_in_events is O(N^2); use a sliding window
-- **Repo:** [https://github.com/hashb/TooFlashy](https://github.com/hashb/TooFlashy)
-- **Issue:** [https://github.com/hashb/TooFlashy/issues/12](https://github.com/hashb/TooFlashy/issues/12)
+### Pre-existing test failures unrelated to lineage panels (PR #44)
+- **Repo:** [https://github.com/pirl-unc/trufflepig](https://github.com/pirl-unc/trufflepig)
+- **Issue:** [https://github.com/pirl-unc/trufflepig/issues/45](https://github.com/pirl-unc/trufflepig/issues/45)
 
-### Harden search_users against large-input performance regression
-- **Repo:** [https://github.com/test-account-kj/issue-history](https://github.com/test-account-kj/issue-history)
-- **Issue:** [https://github.com/test-account-kj/issue-history/issues/111](https://github.com/test-account-kj/issue-history/issues/111)
+### Write a pack-author guide
+- **Repo:** [https://github.com/vecna-labs/open-range](https://github.com/vecna-labs/open-range)
+- **Issue:** [https://github.com/vecna-labs/open-range/issues/197](https://github.com/vecna-labs/open-range/issues/197)
 
-### [Performance]:  KV cache ~7x memory overestimation for hybrid Mamba/attention models (Qwen3.5)
-- **Repo:** [https://github.com/vllm-project/vllm](https://github.com/vllm-project/vllm)
-- **Issue:** [https://github.com/vllm-project/vllm/issues/37121](https://github.com/vllm-project/vllm/issues/37121)
+### Add API-key LLM backends
+- **Repo:** [https://github.com/vecna-labs/open-range](https://github.com/vecna-labs/open-range)
+- **Issue:** [https://github.com/vecna-labs/open-range/issues/188](https://github.com/vecna-labs/open-range/issues/188)
 
-### Performance: helpers.py _get_v3_agent_fields频繁重建字典
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/2425](https://github.com/wuxixixi/ProjectInsight/issues/2425)
+### feat: Map coloring
+- **Repo:** [https://github.com/BikeNetKit/superblockify](https://github.com/BikeNetKit/superblockify)
+- **Issue:** [https://github.com/BikeNetKit/superblockify/issues/130](https://github.com/BikeNetKit/superblockify/issues/130)
 
-### Migrate task time estimates from hours to minutes for consistency and granularity
-- **Repo:** [https://github.com/lwgray/marcus](https://github.com/lwgray/marcus)
-- **Issue:** [https://github.com/lwgray/marcus/issues/105](https://github.com/lwgray/marcus/issues/105)
+### [Summary] Good AI/LLM Tasks for Newcomers
+- **Repo:** [https://github.com/apache/hugegraph-ai](https://github.com/apache/hugegraph-ai)
+- **Issue:** [https://github.com/apache/hugegraph-ai/issues/107](https://github.com/apache/hugegraph-ai/issues/107)
 
-### [routers/prediction.py] _get_current_state_dict hardcodes debunk_effect calculation
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/1762](https://github.com/wuxixixi/ProjectInsight/issues/1762)
+### 👻 Welcome to Ghost — Getting Started & Feature Requests
+- **Repo:** [https://github.com/juliosuas/ghost](https://github.com/juliosuas/ghost)
+- **Issue:** [https://github.com/juliosuas/ghost/issues/1](https://github.com/juliosuas/ghost/issues/1)
 
-### [engine-dual] _get_personas calls np.percentile twice per agent in O(n) loop
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/1747](https://github.com/wuxixixi/ProjectInsight/issues/1747)
+### Improve error message when DuckDB file is locked
+- **Repo:** [https://github.com/shahanxd/cassetto](https://github.com/shahanxd/cassetto)
+- **Issue:** [https://github.com/shahanxd/cassetto/issues/5](https://github.com/shahanxd/cassetto/issues/5)
 
-### [knowledge-evolution] compute_batch_influence is O(n) Python loop, should be vectorized
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/1722](https://github.com/wuxixixi/ProjectInsight/issues/1722)
+### Add cassetto doctor command to check system health
+- **Repo:** [https://github.com/shahanxd/cassetto](https://github.com/shahanxd/cassetto)
+- **Issue:** [https://github.com/shahanxd/cassetto/issues/2](https://github.com/shahanxd/cassetto/issues/2)
 
-### [dual-network] get_community_members is O(n) linear scan
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/1718](https://github.com/wuxixixi/ProjectInsight/issues/1718)
+### [BOUNTY] Review BoTTube on ToolPilot — 2 RTC
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/415](https://github.com/Scottcjn/rustchain-bounties/issues/415)
 
-### [helpers] Comment claims O(1) fix but code still builds full dict each call
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/1624](https://github.com/wuxixixi/ProjectInsight/issues/1624)
+### [V4] Conversational Onboarding (Proactive /aegis-init)
+- **Repo:** [https://github.com/seismael/aegis](https://github.com/seismael/aegis)
+- **Issue:** [https://github.com/seismael/aegis/issues/5](https://github.com/seismael/aegis/issues/5)
 
-### [belief-state] add_exposure使用列表截断创建新列表效率低下
-- **Repo:** [https://github.com/wuxixixi/ProjectInsight](https://github.com/wuxixixi/ProjectInsight)
-- **Issue:** [https://github.com/wuxixixi/ProjectInsight/issues/1375](https://github.com/wuxixixi/ProjectInsight/issues/1375)
+### Web UI development — tracking issue + contributor welcome mat
+- **Repo:** [https://github.com/sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein)
+- **Issue:** [https://github.com/sipyourdrink-ltd/bernstein/issues/1262](https://github.com/sipyourdrink-ltd/bernstein/issues/1262)
 
-### [PERF] games.py O(n²) fork detection algorithms
-- **Repo:** [https://github.com/InvalidDavid/Usagi-Bot](https://github.com/InvalidDavid/Usagi-Bot)
-- **Issue:** [https://github.com/InvalidDavid/Usagi-Bot/issues/20](https://github.com/InvalidDavid/Usagi-Bot/issues/20)
+### feat(tools/osv): query OSV.dev for vulnerability cross-references during security triage
+- **Repo:** [https://github.com/apache/airflow-steward](https://github.com/apache/airflow-steward)
+- **Issue:** [https://github.com/apache/airflow-steward/issues/311](https://github.com/apache/airflow-steward/issues/311)
 
-### Polynomial time-complexity of typing.overload
-- **Repo:** [https://github.com/python/mypy](https://github.com/python/mypy)
-- **Issue:** [https://github.com/python/mypy/issues/10004](https://github.com/python/mypy/issues/10004)
+### Add support for Svelte and Vue
+- **Repo:** [https://github.com/CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)
+- **Issue:** [https://github.com/CodeGraphContext/CodeGraphContext/issues/709](https://github.com/CodeGraphContext/CodeGraphContext/issues/709)
 
-### perf(accessor): set_many() makes O(3N) queries — batch old-value fetch and use bulk upsert
-- **Repo:** [https://github.com/krishnamodepalli/django-sysconfig](https://github.com/krishnamodepalli/django-sysconfig)
-- **Issue:** [https://github.com/krishnamodepalli/django-sysconfig/issues/75](https://github.com/krishnamodepalli/django-sysconfig/issues/75)
+### PR Reviewer: A new enh to codegraphcontext
+- **Repo:** [https://github.com/CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)
+- **Issue:** [https://github.com/CodeGraphContext/CodeGraphContext/issues/606](https://github.com/CodeGraphContext/CodeGraphContext/issues/606)
 
-### v10: Optimize conversation memory performance
-- **Repo:** [https://github.com/dwin/pal-mcp-server](https://github.com/dwin/pal-mcp-server)
-- **Issue:** [https://github.com/dwin/pal-mcp-server/issues/11](https://github.com/dwin/pal-mcp-server/issues/11)
+### [DOC] Fix failing example notebooks
+- **Repo:** [https://github.com/pgmpy/pgmpy](https://github.com/pgmpy/pgmpy)
+- **Issue:** [https://github.com/pgmpy/pgmpy/issues/3006](https://github.com/pgmpy/pgmpy/issues/3006)
 
-### multiprocessing .Condition.notify(_all) function has O(N) time complexity where N is the number of wait() calls with a timeout since the last notify(_all) call
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/69655](https://github.com/python/cpython/issues/69655)
+### Adapter: Semantic Scholar (citation graph + influential citations)
+- **Repo:** [https://github.com/ata381/BibMedEd](https://github.com/ata381/BibMedEd)
+- **Issue:** [https://github.com/ata381/BibMedEd/issues/8](https://github.com/ata381/BibMedEd/issues/8)
 
-### PERF-001: Eliminate full table scans in search and PN lookup
-- **Repo:** [https://github.com/lollonet/bike-copilot-demo](https://github.com/lollonet/bike-copilot-demo)
-- **Issue:** [https://github.com/lollonet/bike-copilot-demo/issues/91](https://github.com/lollonet/bike-copilot-demo/issues/91)
+### [FEAT]: GraphQL schema generator for BioCypher
+- **Repo:** [https://github.com/biocypher/biocypher](https://github.com/biocypher/biocypher)
+- **Issue:** [https://github.com/biocypher/biocypher/issues/500](https://github.com/biocypher/biocypher/issues/500)
 
-### Improving sparse polynomial gcd
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/23131](https://github.com/sympy/sympy/issues/23131)
+### [MEDIUM] #1153 - String Transforms Into Another String
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1940](https://github.com/hackdartstorm/Python/issues/1940)
 
-### Memory consumption : release "content" treated pages proposal
-- **Repo:** [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
-- **Issue:** [https://github.com/mkdocs/mkdocs/issues/2669](https://github.com/mkdocs/mkdocs/issues/2669)
+### Declared-layer completeness check (catch named-but-empty layers)
+- **Repo:** [https://github.com/hslee16/Archy](https://github.com/hslee16/Archy)
+- **Issue:** [https://github.com/hslee16/Archy/issues/123](https://github.com/hslee16/Archy/issues/123)
 
-### Ingesting arbitrarily large native Zarr stores by batching arrow streams
-- **Repo:** [https://github.com/zarr-developers/VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr)
-- **Issue:** [https://github.com/zarr-developers/VirtualiZarr/issues/894](https://github.com/zarr-developers/VirtualiZarr/issues/894)
+### Static fragility proxy (git-free hotspot stand-in)
+- **Repo:** [https://github.com/hslee16/Archy](https://github.com/hslee16/Archy)
+- **Issue:** [https://github.com/hslee16/Archy/issues/134](https://github.com/hslee16/Archy/issues/134)
 
-### Quadratic-time behavior in Group.visititems() / visititems_links() on deep nested hierarchies (with PoC)
-- **Repo:** [https://github.com/h5py/h5py](https://github.com/h5py/h5py)
-- **Issue:** [https://github.com/h5py/h5py/issues/2741](https://github.com/h5py/h5py/issues/2741)
+### docs: Update README — new backends, scenarios, API server, HuggingFace Spaces badge
+- **Repo:** [https://github.com/Neal006/memorylens](https://github.com/Neal006/memorylens)
+- **Issue:** [https://github.com/Neal006/memorylens/issues/29](https://github.com/Neal006/memorylens/issues/29)
 
-### Fix JsonLogger to avoid full file rewrite on every log
-- **Repo:** [https://github.com/NP-compete/pageindex](https://github.com/NP-compete/pageindex)
-- **Issue:** [https://github.com/NP-compete/pageindex/issues/9](https://github.com/NP-compete/pageindex/issues/9)
+### Unify the manifest.json
+- **Repo:** [https://github.com/astronomer/astronomer-cosmos](https://github.com/astronomer/astronomer-cosmos)
+- **Issue:** [https://github.com/astronomer/astronomer-cosmos/issues/1407](https://github.com/astronomer/astronomer-cosmos/issues/1407)
 
-### Zarr Precreation O(n) bug
-- **Repo:** [https://github.com/czbiohub-sf/iohub](https://github.com/czbiohub-sf/iohub)
-- **Issue:** [https://github.com/czbiohub-sf/iohub/issues/349](https://github.com/czbiohub-sf/iohub/issues/349)
+### Airflow Databricks Operator Task Group Launch Task Not Properly Waiting for Upstream Tasks
+- **Repo:** [https://github.com/apache/airflow](https://github.com/apache/airflow)
+- **Issue:** [https://github.com/apache/airflow/issues/51598](https://github.com/apache/airflow/issues/51598)
+
+### test: Add Playwright end-to-end tests for the tactical dashboard
+- **Repo:** [https://github.com/eulogep/Project-ARGUS-INT](https://github.com/eulogep/Project-ARGUS-INT)
+- **Issue:** [https://github.com/eulogep/Project-ARGUS-INT/issues/5](https://github.com/eulogep/Project-ARGUS-INT/issues/5)
+
+### [FEATURE]: Consolidate the *_helper.py modules in structured_object_evaluator/models/
+- **Repo:** [https://github.com/awslabs/stickler](https://github.com/awslabs/stickler)
+- **Issue:** [https://github.com/awslabs/stickler/issues/134](https://github.com/awslabs/stickler/issues/134)
+
+### feat(rag-tools): rag.neighborhood — graph traversal
+- **Repo:** [https://github.com/agentbreeder/agentbreeder](https://github.com/agentbreeder/agentbreeder)
+- **Issue:** [https://github.com/agentbreeder/agentbreeder/issues/273](https://github.com/agentbreeder/agentbreeder/issues/273)
+
+### Validate knowledge graph for circular dependencies
+- **Repo:** [https://github.com/zijinz456/OpenTutor](https://github.com/zijinz456/OpenTutor)
+- **Issue:** [https://github.com/zijinz456/OpenTutor/issues/34](https://github.com/zijinz456/OpenTutor/issues/34)
+
+### Tracing graph: fullscreen button is decorative. zoom/fit/collapse controls also have no onClick
+- **Repo:** [https://github.com/future-agi/future-agi](https://github.com/future-agi/future-agi)
+- **Issue:** [https://github.com/future-agi/future-agi/issues/517](https://github.com/future-agi/future-agi/issues/517)
+
+### Merge returns duplicate indices
+- **Repo:** [https://github.com/dask/dask](https://github.com/dask/dask)
+- **Issue:** [https://github.com/dask/dask/issues/6659](https://github.com/dask/dask/issues/6659)
+
+### Improve the builder "add block" placement algorithm
+- **Repo:** [https://github.com/Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
+- **Issue:** [https://github.com/Significant-Gravitas/AutoGPT/issues/9326](https://github.com/Significant-Gravitas/AutoGPT/issues/9326)
+
+### improve local testing and deployments with docker containers
+- **Repo:** [https://github.com/codeforpdx/tenantfirstaid](https://github.com/codeforpdx/tenantfirstaid)
+- **Issue:** [https://github.com/codeforpdx/tenantfirstaid/issues/253](https://github.com/codeforpdx/tenantfirstaid/issues/253)
+
+### Conversion from snake_case to camelCase in subfields is not happening
+- **Repo:** [https://github.com/mirumee/ariadne-codegen](https://github.com/mirumee/ariadne-codegen)
+- **Issue:** [https://github.com/mirumee/ariadne-codegen/issues/343](https://github.com/mirumee/ariadne-codegen/issues/343)
+
+### Refactor function `build_airflow_graph` to reduce code complexity
+- **Repo:** [https://github.com/astronomer/astronomer-cosmos](https://github.com/astronomer/astronomer-cosmos)
+- **Issue:** [https://github.com/astronomer/astronomer-cosmos/issues/1943](https://github.com/astronomer/astronomer-cosmos/issues/1943)
+
+### [New Check]: Service principals with privileged Entra directory roles must not have owners
+- **Repo:** [https://github.com/prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+- **Issue:** [https://github.com/prowler-cloud/prowler/issues/11070](https://github.com/prowler-cloud/prowler/issues/11070)
+
+### Add a smoke test for SKILL.md-style exports
+- **Repo:** [https://github.com/sparkplug604/praxis](https://github.com/sparkplug604/praxis)
+- **Issue:** [https://github.com/sparkplug604/praxis/issues/3](https://github.com/sparkplug604/praxis/issues/3)
+
+### [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional
+- **Repo:** [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)
+- **Issue:** [https://github.com/pytorch/pytorch/issues/133443](https://github.com/pytorch/pytorch/issues/133443)
+
+### Propose a skill you use that is missing from the registry
+- **Repo:** [https://github.com/mbtiongson1/gaia-skill-tree](https://github.com/mbtiongson1/gaia-skill-tree)
+- **Issue:** [https://github.com/mbtiongson1/gaia-skill-tree/issues/66](https://github.com/mbtiongson1/gaia-skill-tree/issues/66)
+
+### [New Check]: At least one Conditional Access policy must explicitly target Azure DevOps
+- **Repo:** [https://github.com/prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+- **Issue:** [https://github.com/prowler-cloud/prowler/issues/11067](https://github.com/prowler-cloud/prowler/issues/11067)
+
+### feat: expand benchmarking suite to cover multi-language and diverse repository types
+- **Repo:** [https://github.com/hey-granth/codectx](https://github.com/hey-granth/codectx)
+- **Issue:** [https://github.com/hey-granth/codectx/issues/7](https://github.com/hey-granth/codectx/issues/7)
+
+### Add auth & identity domain seeder
+- **Repo:** [https://github.com/anormang1992/vre](https://github.com/anormang1992/vre)
+- **Issue:** [https://github.com/anormang1992/vre/issues/68](https://github.com/anormang1992/vre/issues/68)
+
+### Add process & concurrency domain seeder
+- **Repo:** [https://github.com/anormang1992/vre](https://github.com/anormang1992/vre)
+- **Issue:** [https://github.com/anormang1992/vre/issues/67](https://github.com/anormang1992/vre/issues/67)
+
+### Add database domain seeder
+- **Repo:** [https://github.com/anormang1992/vre](https://github.com/anormang1992/vre)
+- **Issue:** [https://github.com/anormang1992/vre/issues/66](https://github.com/anormang1992/vre/issues/66)
+
+### Add HTTP/REST domain seeder
+- **Repo:** [https://github.com/anormang1992/vre](https://github.com/anormang1992/vre)
+- **Issue:** [https://github.com/anormang1992/vre/issues/65](https://github.com/anormang1992/vre/issues/65)
+
+### Add git domain seeder
+- **Repo:** [https://github.com/anormang1992/vre](https://github.com/anormang1992/vre)
+- **Issue:** [https://github.com/anormang1992/vre/issues/64](https://github.com/anormang1992/vre/issues/64)
+
+### Lineage tracking infrastructure (parent_id + ancestry) — Phase 6 prerequisite
+- **Repo:** [https://github.com/billymahmood/universesimulator](https://github.com/billymahmood/universesimulator)
+- **Issue:** [https://github.com/billymahmood/universesimulator/issues/23](https://github.com/billymahmood/universesimulator/issues/23)
+
+### Add dag run deadlines to API and UI
+- **Repo:** [https://github.com/apache/airflow](https://github.com/apache/airflow)
+- **Issue:** [https://github.com/apache/airflow/issues/50501](https://github.com/apache/airflow/issues/50501)
+
+### Add 5 generic starter commands to commands.default.json
+- **Repo:** [https://github.com/thecodeartificerX/voice-commander](https://github.com/thecodeartificerX/voice-commander)
+- **Issue:** [https://github.com/thecodeartificerX/voice-commander/issues/101](https://github.com/thecodeartificerX/voice-commander/issues/101)
+
+### Add Builder UI screenshot or GIF to README
+- **Repo:** [https://github.com/thecodeartificerX/voice-commander](https://github.com/thecodeartificerX/voice-commander)
+- **Issue:** [https://github.com/thecodeartificerX/voice-commander/issues/100](https://github.com/thecodeartificerX/voice-commander/issues/100)
+
+### [feat][graph_workflow][sub-workflow composition]
+- **Repo:** [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms)
+- **Issue:** [https://github.com/kyegomez/swarms/issues/1560](https://github.com/kyegomez/swarms/issues/1560)
+
+### Tighten minimum version floors for dependencies with known CVEs
+- **Repo:** [https://github.com/mlflow/mlflow](https://github.com/mlflow/mlflow)
+- **Issue:** [https://github.com/mlflow/mlflow/issues/23061](https://github.com/mlflow/mlflow/issues/23061)
+
+### qt6.qml_module(): forward Qt6's metatype .json files to qmltyperegistrar
+- **Repo:** [https://github.com/mesonbuild/meson](https://github.com/mesonbuild/meson)
+- **Issue:** [https://github.com/mesonbuild/meson/issues/15801](https://github.com/mesonbuild/meson/issues/15801)
+
+### Document src/infrastructure/mcp/ module
+- **Repo:** [https://github.com/tawiza/tawiza](https://github.com/tawiza/tawiza)
+- **Issue:** [https://github.com/tawiza/tawiza/issues/158](https://github.com/tawiza/tawiza/issues/158)
+
+### Document src/interfaces/api/ module
+- **Repo:** [https://github.com/tawiza/tawiza](https://github.com/tawiza/tawiza)
+- **Issue:** [https://github.com/tawiza/tawiza/issues/156](https://github.com/tawiza/tawiza/issues/156)
+
+### Document src/application/ module
+- **Repo:** [https://github.com/tawiza/tawiza](https://github.com/tawiza/tawiza)
+- **Issue:** [https://github.com/tawiza/tawiza/issues/155](https://github.com/tawiza/tawiza/issues/155)
+
+### Agent-based extraction hasn't been tested in a while
+- **Repo:** [https://github.com/trustgraph-ai/trustgraph](https://github.com/trustgraph-ai/trustgraph)
+- **Issue:** [https://github.com/trustgraph-ai/trustgraph/issues/791](https://github.com/trustgraph-ai/trustgraph/issues/791)
+
+### [ENH] Improve iteroperability with dagitty syntax
+- **Repo:** [https://github.com/pgmpy/pgmpy](https://github.com/pgmpy/pgmpy)
+- **Issue:** [https://github.com/pgmpy/pgmpy/issues/2352](https://github.com/pgmpy/pgmpy/issues/2352)
+
+### feat(rag-tools): rag.stats — index health
+- **Repo:** [https://github.com/agentbreeder/agentbreeder](https://github.com/agentbreeder/agentbreeder)
+- **Issue:** [https://github.com/agentbreeder/agentbreeder/issues/278](https://github.com/agentbreeder/agentbreeder/issues/278)
+
+### Improve wording on about graph: "Package version updates"
+- **Repo:** [https://github.com/oss-aspen/8Knot](https://github.com/oss-aspen/8Knot)
+- **Issue:** [https://github.com/oss-aspen/8Knot/issues/1142](https://github.com/oss-aspen/8Knot/issues/1142)
+
+### [New Check]: Microsoft Entra directory sync must block object takeover (soft- and hard-matching)
+- **Repo:** [https://github.com/prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+- **Issue:** [https://github.com/prowler-cloud/prowler/issues/11068](https://github.com/prowler-cloud/prowler/issues/11068)
+
+### [New Check]: Conditional Access excluded objects must be covered by another policy (no exclusion gaps)
+- **Repo:** [https://github.com/prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+- **Issue:** [https://github.com/prowler-cloud/prowler/issues/11062](https://github.com/prowler-cloud/prowler/issues/11062)
+
+### Structured documentation for Neural-LAM
+- **Repo:** [https://github.com/mllam/neural-lam](https://github.com/mllam/neural-lam)
+- **Issue:** [https://github.com/mllam/neural-lam/issues/61](https://github.com/mllam/neural-lam/issues/61)
+
+### [BOUNTY CAMPAIGN] Bring Your Human to Work Day — Match Agent Engagement with Verified Humans (Pool: 500 RTC)
+- **Repo:** [https://github.com/Scottcjn/Rustchain](https://github.com/Scottcjn/Rustchain)
+- **Issue:** [https://github.com/Scottcjn/Rustchain/issues/2634](https://github.com/Scottcjn/Rustchain/issues/2634)
+
+### Parse and save granular sleep stages from Ultrahuman sleep_graph
+- **Repo:** [https://github.com/the-momentum/open-wearables](https://github.com/the-momentum/open-wearables)
+- **Issue:** [https://github.com/the-momentum/open-wearables/issues/665](https://github.com/the-momentum/open-wearables/issues/665)
+
+### Add Agent Templates / Sub-graph Templates
+- **Repo:** [https://github.com/future-agi/future-agi](https://github.com/future-agi/future-agi)
+- **Issue:** [https://github.com/future-agi/future-agi/issues/32](https://github.com/future-agi/future-agi/issues/32)
+
+### Enable Running Evaluations in Agent Playground
+- **Repo:** [https://github.com/future-agi/future-agi](https://github.com/future-agi/future-agi)
+- **Issue:** [https://github.com/future-agi/future-agi/issues/30](https://github.com/future-agi/future-agi/issues/30)
+
+### Auto-trigger eval runs when new data points are added to a dataset
+- **Repo:** [https://github.com/future-agi/future-agi](https://github.com/future-agi/future-agi)
+- **Issue:** [https://github.com/future-agi/future-agi/issues/74](https://github.com/future-agi/future-agi/issues/74)
+
+### [Good First Issue] Docs: Draw Mermaid Architecture Diagram for SINOSHOP Platform Control Logic and Energy Flow — 文档：绘制 SINOSHOP 平台控制逻辑与能量流向的 Mermaid 架构图
+- **Repo:** [https://github.com/SINOSHOP-OPEN/SINOSHOP-Platform](https://github.com/SINOSHOP-OPEN/SINOSHOP-Platform)
+- **Issue:** [https://github.com/SINOSHOP-OPEN/SINOSHOP-Platform/issues/11](https://github.com/SINOSHOP-OPEN/SINOSHOP-Platform/issues/11)
+
+### collaboration wanted: formalize UCNS with mathematics collaborators
+- **Repo:** [https://github.com/The-Interdependency/ucns](https://github.com/The-Interdependency/ucns)
+- **Issue:** [https://github.com/The-Interdependency/ucns/issues/7](https://github.com/The-Interdependency/ucns/issues/7)
+
+
+## Query 2: Time Complexity & Big-O (`good first issue`)
+
+### MRWK bounty: 75 MRWK - live verification and bug reports, round 2
+- **Repo:** [https://github.com/ramimbo/mergework](https://github.com/ramimbo/mergework)
+- **Issue:** [https://github.com/ramimbo/mergework/issues/798](https://github.com/ramimbo/mergework/issues/798)
+
+### ✨ Dynamical QFT
+- **Repo:** [https://github.com/munich-quantum-toolkit/bench](https://github.com/munich-quantum-toolkit/bench)
+- **Issue:** [https://github.com/munich-quantum-toolkit/bench/issues/798](https://github.com/munich-quantum-toolkit/bench/issues/798)
+
+### [BOUNTY] Register Your Agent on Beacon Atlas - 5 RTC
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/422](https://github.com/Scottcjn/rustchain-bounties/issues/422)
+
+### False positive for `implicit-str-concat` when some but not all strings are raw
+- **Repo:** [https://github.com/pylint-dev/pylint](https://github.com/pylint-dev/pylint)
+- **Issue:** [https://github.com/pylint-dev/pylint/issues/6663](https://github.com/pylint-dev/pylint/issues/6663)
+
+### Append Sequence of Renumbered Items
+- **Repo:** [https://github.com/idaholab/MontePy](https://github.com/idaholab/MontePy)
+- **Issue:** [https://github.com/idaholab/MontePy/issues/566](https://github.com/idaholab/MontePy/issues/566)
+
+### Ubuntu Server: building up the glossary
+- **Repo:** [https://github.com/canonical/open-documentation-academy](https://github.com/canonical/open-documentation-academy)
+- **Issue:** [https://github.com/canonical/open-documentation-academy/issues/166](https://github.com/canonical/open-documentation-academy/issues/166)
+
+### [Refactor] Bad Search assumptions in the Task Manager
+- **Repo:** [https://github.com/Robbo-lab/mcp-task-app](https://github.com/Robbo-lab/mcp-task-app)
+- **Issue:** [https://github.com/Robbo-lab/mcp-task-app/issues/11](https://github.com/Robbo-lab/mcp-task-app/issues/11)
+
+### Add a new domain adapter (CTF, reverse engineering, security audit, scientific literature, etc.)
+- **Repo:** [https://github.com/jim4226/CSIS](https://github.com/jim4226/CSIS)
+- **Issue:** [https://github.com/jim4226/CSIS/issues/2](https://github.com/jim4226/CSIS/issues/2)
+
+### [locale] Add Czech accent extension over Latin (locale: en)
+- **Repo:** [https://github.com/sftwnd/bip39-morse](https://github.com/sftwnd/bip39-morse)
+- **Issue:** [https://github.com/sftwnd/bip39-morse/issues/7](https://github.com/sftwnd/bip39-morse/issues/7)
+
+### bug: python test flakey for secretstore
+- **Repo:** [https://github.com/dapr/python-sdk](https://github.com/dapr/python-sdk)
+- **Issue:** [https://github.com/dapr/python-sdk/issues/1029](https://github.com/dapr/python-sdk/issues/1029)
+
+### Evaluate these metrics for addition to the team / chatbot dashboard
+- **Repo:** [https://github.com/dimagi/open-chat-studio](https://github.com/dimagi/open-chat-studio)
+- **Issue:** [https://github.com/dimagi/open-chat-studio/issues/2927](https://github.com/dimagi/open-chat-studio/issues/2927)
+
+### [feat][graph_workflow][sub-workflow composition]
+- **Repo:** [https://github.com/kyegomez/swarms](https://github.com/kyegomez/swarms)
+- **Issue:** [https://github.com/kyegomez/swarms/issues/1560](https://github.com/kyegomez/swarms/issues/1560)
+
+### 📊 Tracking Issue: Dynamic Circuits
+- **Repo:** [https://github.com/munich-quantum-toolkit/bench](https://github.com/munich-quantum-toolkit/bench)
+- **Issue:** [https://github.com/munich-quantum-toolkit/bench/issues/788](https://github.com/munich-quantum-toolkit/bench/issues/788)
+
+### Fast conversion to and from Pauli basis
+- **Repo:** [https://github.com/qiboteam/qibo](https://github.com/qiboteam/qibo)
+- **Issue:** [https://github.com/qiboteam/qibo/issues/1632](https://github.com/qiboteam/qibo/issues/1632)
+
+### [FEAT]: Non-Blocking Async Extraction, Retry, and Observability for /forms/fill
+- **Repo:** [https://github.com/fireform-core/FireForm](https://github.com/fireform-core/FireForm)
+- **Issue:** [https://github.com/fireform-core/FireForm/issues/152](https://github.com/fireform-core/FireForm/issues/152)
+
+### Add benchmark suite for neuromorphic module — LIF simulation speed, STDP convergence, network scaling
+- **Repo:** [https://github.com/web3guru888/asi-build](https://github.com/web3guru888/asi-build)
+- **Issue:** [https://github.com/web3guru888/asi-build/issues/54](https://github.com/web3guru888/asi-build/issues/54)
+
+### Optimized 4-bit quantizer using binary decision tree
+- **Repo:** [https://github.com/ahb-sjsu/turboquant-pro](https://github.com/ahb-sjsu/turboquant-pro)
+- **Issue:** [https://github.com/ahb-sjsu/turboquant-pro/issues/18](https://github.com/ahb-sjsu/turboquant-pro/issues/18)
+
+### Add custom instructions to copilot review for better PR integration
+- **Repo:** [https://github.com/OpenFilamentCollective/open-filament-database](https://github.com/OpenFilamentCollective/open-filament-database)
+- **Issue:** [https://github.com/OpenFilamentCollective/open-filament-database/issues/237](https://github.com/OpenFilamentCollective/open-filament-database/issues/237)
+
+### How can I disable filename abbreviations in the results of tab-autocompletion?
+- **Repo:** [https://github.com/ipython/ipython](https://github.com/ipython/ipython)
+- **Issue:** [https://github.com/ipython/ipython/issues/12105](https://github.com/ipython/ipython/issues/12105)
+
+### Add Streamlit frontend as alternative to Flask
+- **Repo:** [https://github.com/Pawansingh3889/Hackathon-mediask](https://github.com/Pawansingh3889/Hackathon-mediask)
+- **Issue:** [https://github.com/Pawansingh3889/Hackathon-mediask/issues/2](https://github.com/Pawansingh3889/Hackathon-mediask/issues/2)
+
+### Build index Maps for repeated `.find()` lookups in chat and document hooks
+- **Repo:** [https://github.com/MODSetter/SurfSense](https://github.com/MODSetter/SurfSense)
+- **Issue:** [https://github.com/MODSetter/SurfSense/issues/1047](https://github.com/MODSetter/SurfSense/issues/1047)
+
+### [MEDIUM] #1080 - Insufficient Nodes in Root to Leaf Paths
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1867](https://github.com/hackdartstorm/Python/issues/1867)
+
+### FAISS Vector Store Retriever
+- **Repo:** [https://github.com/adaumsilva/RAG-framework](https://github.com/adaumsilva/RAG-framework)
+- **Issue:** [https://github.com/adaumsilva/RAG-framework/issues/4](https://github.com/adaumsilva/RAG-framework/issues/4)
+
+### Add iSIM functionalities
+- **Repo:** [https://github.com/MLCIL/scikit-fingerprints](https://github.com/MLCIL/scikit-fingerprints)
+- **Issue:** [https://github.com/MLCIL/scikit-fingerprints/issues/505](https://github.com/MLCIL/scikit-fingerprints/issues/505)
+
+### Optimise time and space complexity
+- **Repo:** [https://github.com/LearnPRG-py/Molybdenum](https://github.com/LearnPRG-py/Molybdenum)
+- **Issue:** [https://github.com/LearnPRG-py/Molybdenum/issues/10](https://github.com/LearnPRG-py/Molybdenum/issues/10)
+
+### [Bug] RAG query enhancement generates overly verbose and irrelevant search queries when conversation has no context
+- **Repo:** [https://github.com/claudiomello10/AcademiCK](https://github.com/claudiomello10/AcademiCK)
+- **Issue:** [https://github.com/claudiomello10/AcademiCK/issues/11](https://github.com/claudiomello10/AcademiCK/issues/11)
+
+### [Beginner]: Convert usa_states and usa_cities lists in is_valid_location() to frozenset for O(1) lookup
+- **Repo:** [https://github.com/ambicuity/New-Grad-Jobs](https://github.com/ambicuity/New-Grad-Jobs)
+- **Issue:** [https://github.com/ambicuity/New-Grad-Jobs/issues/27](https://github.com/ambicuity/New-Grad-Jobs/issues/27)
 
 ### Benchmark: compare LTS construction performance across Python versions
 - **Repo:** [https://github.com/agenticraft/agenticraft-foundation](https://github.com/agenticraft/agenticraft-foundation)
 - **Issue:** [https://github.com/agenticraft/agenticraft-foundation/issues/8](https://github.com/agenticraft/agenticraft-foundation/issues/8)
 
-### [Pull Reviewer] performance: The use of `get_close_matches` from the `difflib` module for...
-- **Repo:** [https://github.com/juanjoseexpositogonzalez/dev-journal](https://github.com/juanjoseexpositogonzalez/dev-journal)
-- **Issue:** [https://github.com/juanjoseexpositogonzalez/dev-journal/issues/29](https://github.com/juanjoseexpositogonzalez/dev-journal/issues/29)
-
-### Adding N annotations takes O(N^2) time
-- **Repo:** [https://github.com/plotly/plotly.py](https://github.com/plotly/plotly.py)
-- **Issue:** [https://github.com/plotly/plotly.py/issues/5316](https://github.com/plotly/plotly.py/issues/5316)
-
-### perf: _analyze_horizons O(H*N) survival curve with per-year np.sum loop
-- **Repo:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits)
-- **Issue:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/1473](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/1473)
-
-### perf: pareto_frontier._filter_dominated_points() O(n^2) dominance check even with GPU
-- **Repo:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits)
-- **Issue:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/1266](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/1266)
-
-### perf: convergence.heidelberger_welch_test() has O(n^2) rolling mean computation
-- **Repo:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits)
-- **Issue:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/1225](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/1225)
-
-### feat: GPU-accelerate risk metrics (VaR, TVaR, Expected Shortfall)
-- **Repo:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits)
-- **Issue:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/964](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/964)
-
-### perf: loss_distributions extreme value transform uses list.remove() causing O(N^2)
-- **Repo:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits)
-- **Issue:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/761](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/761)
-
-### ParetoFrontier._filter_dominated_points enhance to use the Kung algorithm
-- **Repo:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits)
-- **Issue:** [https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/601](https://github.com/AlexFiliakov/Ergodic-Insurance-Limits/issues/601)
-
-### Optimize Data Structures (Trie, Deque, Compiled Regex)
-- **Repo:** [https://github.com/Cyborgninja21/pychivalry](https://github.com/Cyborgninja21/pychivalry)
-- **Issue:** [https://github.com/Cyborgninja21/pychivalry/issues/70](https://github.com/Cyborgninja21/pychivalry/issues/70)
-
-### Min/Max with many args is slow to construct
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/16249](https://github.com/sympy/sympy/issues/16249)
-
-### EPIC H: Optimize RegressionCandidateCollector performance
-- **Repo:** [https://github.com/RC918/morningai](https://github.com/RC918/morningai)
-- **Issue:** [https://github.com/RC918/morningai/issues/3995](https://github.com/RC918/morningai/issues/3995)
-
-### Performance Improvements
-- **Repo:** [https://github.com/redruin1/factorio-draftsman](https://github.com/redruin1/factorio-draftsman)
-- **Issue:** [https://github.com/redruin1/factorio-draftsman/issues/28](https://github.com/redruin1/factorio-draftsman/issues/28)
-
-### Performance: Slow loading of persons modal on funnel
-- **Repo:** [https://github.com/PostHog/posthog](https://github.com/PostHog/posthog)
-- **Issue:** [https://github.com/PostHog/posthog/issues/28878](https://github.com/PostHog/posthog/issues/28878)
-
-### REQ-NF-RT-003: Minimize Timing Jitter (<1μs for Real-Time Messages)
-- **Repo:** [https://github.com/zarfld/MIDI_1.0](https://github.com/zarfld/MIDI_1.0)
-- **Issue:** [https://github.com/zarfld/MIDI_1.0/issues/30](https://github.com/zarfld/MIDI_1.0/issues/30)
-
-### Faster GPs using HODLR solver
-- **Repo:** [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
-- **Issue:** [https://github.com/scikit-learn/scikit-learn/issues/14437](https://github.com/scikit-learn/scikit-learn/issues/14437)
-
-### REQ-NF-CA024-001: CA-024 Message Parsing Performance
-- **Repo:** [https://github.com/zarfld/MIDI_1.0](https://github.com/zarfld/MIDI_1.0)
-- **Issue:** [https://github.com/zarfld/MIDI_1.0/issues/443](https://github.com/zarfld/MIDI_1.0/issues/443)
-
-### Optimize config hot-reload with shallow comparison for unchanged subtrees
-- **Repo:** [https://github.com/filthyrake/telescope_cam_detection](https://github.com/filthyrake/telescope_cam_detection)
-- **Issue:** [https://github.com/filthyrake/telescope_cam_detection/issues/135](https://github.com/filthyrake/telescope_cam_detection/issues/135)
-
-### Comprehensive Performance & Scalability Audit for Release Readiness
-- **Repo:** [https://github.com/discernus/discernus](https://github.com/discernus/discernus)
-- **Issue:** [https://github.com/discernus/discernus/issues/368](https://github.com/discernus/discernus/issues/368)
-
-### [FEATURE] Real-Time Monitoring & Auto-Optimization
-- **Repo:** [https://github.com/AlexisVS/avs_ai_orchestrator](https://github.com/AlexisVS/avs_ai_orchestrator)
-- **Issue:** [https://github.com/AlexisVS/avs_ai_orchestrator/issues/5](https://github.com/AlexisVS/avs_ai_orchestrator/issues/5)
-
-### Improve statistics.median() complexity
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/135157](https://github.com/python/cpython/issues/135157)
-
-### Time/Space complexity issue in metatensor.split ?
-- **Repo:** [https://github.com/metatensor/metatensor](https://github.com/metatensor/metatensor)
-- **Issue:** [https://github.com/metatensor/metatensor/issues/872](https://github.com/metatensor/metatensor/issues/872)
-
-### Dot and blas slowed by negative strides
-- **Repo:** [https://github.com/pymc-devs/pytensor](https://github.com/pymc-devs/pytensor)
-- **Issue:** [https://github.com/pymc-devs/pytensor/issues/1388](https://github.com/pymc-devs/pytensor/issues/1388)
-
-### Comparing Data Structures
-- **Repo:** [https://github.com/codezonediitj/pydatastructs](https://github.com/codezonediitj/pydatastructs)
-- **Issue:** [https://github.com/codezonediitj/pydatastructs/issues/401](https://github.com/codezonediitj/pydatastructs/issues/401)
-
-### asv: remove distances.DistancesBench.time_contact_matrix_sparse 10,000 benchmark
-- **Repo:** [https://github.com/MDAnalysis/mdanalysis](https://github.com/MDAnalysis/mdanalysis)
-- **Issue:** [https://github.com/MDAnalysis/mdanalysis/issues/2794](https://github.com/MDAnalysis/mdanalysis/issues/2794)
-
-### Performance enhancement of the turtle module
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/128113](https://github.com/python/cpython/issues/128113)
+### Implement pythonstl.algorithm module
+- **Repo:** [https://github.com/AnshMNSoni/PythonSTL](https://github.com/AnshMNSoni/PythonSTL)
+- **Issue:** [https://github.com/AnshMNSoni/PythonSTL/issues/12](https://github.com/AnshMNSoni/PythonSTL/issues/12)
+
+### [MEDIUM] #1068 - Product Sales Analysis I
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1855](https://github.com/hackdartstorm/Python/issues/1855)
+
+### [MEDIUM] #1069 - Product Sales Analysis II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1856](https://github.com/hackdartstorm/Python/issues/1856)
+
+### [MEDIUM] #1070 - Product Sales Analysis III
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1857](https://github.com/hackdartstorm/Python/issues/1857)
+
+### [MEDIUM] #1071 - Greatest Common Divisor of Strings
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1858](https://github.com/hackdartstorm/Python/issues/1858)
+
+### [MEDIUM] #1072 - Flip Columns For Maximum Number of Equal Rows
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1859](https://github.com/hackdartstorm/Python/issues/1859)
+
+### [MEDIUM] #1073 - Adding Two Negabinary Numbers
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1860](https://github.com/hackdartstorm/Python/issues/1860)
+
+### [MEDIUM] #1074 - Number of Submatrices That Sum to Target
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1861](https://github.com/hackdartstorm/Python/issues/1861)
+
+### [MEDIUM] #1075 - Project Employees I
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1862](https://github.com/hackdartstorm/Python/issues/1862)
+
+### [MEDIUM] #1076 - Project Employees II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1863](https://github.com/hackdartstorm/Python/issues/1863)
+
+### [MEDIUM] #1077 - Project Employees III
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1864](https://github.com/hackdartstorm/Python/issues/1864)
+
+### [MEDIUM] #1078 - Occurrences After Bigram
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1865](https://github.com/hackdartstorm/Python/issues/1865)
+
+### [MEDIUM] #1079 - Letter Tile Possibilities
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1866](https://github.com/hackdartstorm/Python/issues/1866)
+
+### [BEGINNER] Build Recent Files Finder
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1550](https://github.com/hackdartstorm/Python/issues/1550)
+
+### [BEGINNER] Create Large File Detector
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1552](https://github.com/hackdartstorm/Python/issues/1552)
+
+### [BEGINNER] Build String Reverser
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1554](https://github.com/hackdartstorm/Python/issues/1554)
+
+### [BEGINNER] Build Anagram Detector
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1557](https://github.com/hackdartstorm/Python/issues/1557)
+
+### [BEGINNER] Build Word Capitalizer
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1560](https://github.com/hackdartstorm/Python/issues/1560)
+
+### [BEGINNER] Create String Truncator
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1561](https://github.com/hackdartstorm/Python/issues/1561)
+
+### [BEGINNER] Build Whitespace Remover
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1565](https://github.com/hackdartstorm/Python/issues/1565)
+
+### [BEGINNER] Create String Comparator
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1567](https://github.com/hackdartstorm/Python/issues/1567)
+
+### [BEGINNER] Build Text Indenter
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1569](https://github.com/hackdartstorm/Python/issues/1569)
+
+### [BEGINNER] Create Line Numberer
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1570](https://github.com/hackdartstorm/Python/issues/1570)
+
+### [BEGINNER] Create String Trimmer
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1573](https://github.com/hackdartstorm/Python/issues/1573)
+
+### [BEGINNER] Build Character Replacer
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1575](https://github.com/hackdartstorm/Python/issues/1575)
+
+### [BEGINNER] Create String Joiner
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1576](https://github.com/hackdartstorm/Python/issues/1576)
+
+### [BEGINNER] Build String Splitter
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1578](https://github.com/hackdartstorm/Python/issues/1578)
+
+### [BEGINNER] Create String Padder
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1579](https://github.com/hackdartstorm/Python/issues/1579)
+
+### [BEGINNER] Build String Centerer
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1581](https://github.com/hackdartstorm/Python/issues/1581)
+
+### [BEGINNER] Create String ZFiller
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1582](https://github.com/hackdartstorm/Python/issues/1582)
+
+### [BEGINNER] Build Text Wrapper
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1584](https://github.com/hackdartstorm/Python/issues/1584)
+
+### [MEDIUM] #761 - Special Binary String
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1587](https://github.com/hackdartstorm/Python/issues/1587)
+
+### [MEDIUM] #762 - Prime Number of Set Bits in Binary Representation
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1588](https://github.com/hackdartstorm/Python/issues/1588)
+
+### [MEDIUM] #764 - Largest Plus Sign
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1590](https://github.com/hackdartstorm/Python/issues/1590)
+
+### [MEDIUM] #765 - Couples Holding Hands
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1591](https://github.com/hackdartstorm/Python/issues/1591)
+
+### [MEDIUM] #768 - Max Chunks To Make Sorted II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1594](https://github.com/hackdartstorm/Python/issues/1594)
+
+### [MEDIUM] #769 - Max Chunks To Make Sorted
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1595](https://github.com/hackdartstorm/Python/issues/1595)
+
+### [MEDIUM] #771 - Jewels and Stones
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1597](https://github.com/hackdartstorm/Python/issues/1597)
+
+### [MEDIUM] #772 - Basic Calculator III
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1598](https://github.com/hackdartstorm/Python/issues/1598)
+
+### [MEDIUM] #774 - Minimize Max Distance to Gas Station
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1600](https://github.com/hackdartstorm/Python/issues/1600)
+
+### [MEDIUM] #775 - Global and Local Inversions
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1601](https://github.com/hackdartstorm/Python/issues/1601)
+
+### [MEDIUM] #777 - Swap Adjacent in LR String
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1603](https://github.com/hackdartstorm/Python/issues/1603)
+
+### [MEDIUM] #778 - Swim in Rising Water
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1604](https://github.com/hackdartstorm/Python/issues/1604)
+
+### [MEDIUM] #779 - K-th Symbol in Grammar
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1605](https://github.com/hackdartstorm/Python/issues/1605)
+
+### [MEDIUM] #781 - Rabbits in Forest
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1607](https://github.com/hackdartstorm/Python/issues/1607)
+
+### [MEDIUM] #782 - Transform to Chessboard
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1608](https://github.com/hackdartstorm/Python/issues/1608)
+
+### [MEDIUM] #783 - Minimum Distance Between BST Nodes
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1609](https://github.com/hackdartstorm/Python/issues/1609)
+
+### [MEDIUM] #784 - Letter Case Permutation
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1610](https://github.com/hackdartstorm/Python/issues/1610)
 
-### [BUG] Off-axis projections for octree code lead to out-of-memory errors
-- **Repo:** [https://github.com/yt-project/yt](https://github.com/yt-project/yt)
-- **Issue:** [https://github.com/yt-project/yt/issues/5076](https://github.com/yt-project/yt/issues/5076)
+### [MEDIUM] #785 - Is Graph Bipartite?
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1611](https://github.com/hackdartstorm/Python/issues/1611)
 
-### argparse.ArgumentParser is slow when parsing a very long option list
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/96859](https://github.com/python/cpython/issues/96859)
+### [MEDIUM] #786 - K-th Smallest Prime Fraction
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1612](https://github.com/hackdartstorm/Python/issues/1612)
 
-### Improving performance of compiled code by using hardware instructions available on the runtime hardware
-- **Repo:** [https://github.com/astropy/astropy](https://github.com/astropy/astropy)
-- **Issue:** [https://github.com/astropy/astropy/issues/16902](https://github.com/astropy/astropy/issues/16902)
+### [MEDIUM] #787 - Cheapest Flights Within K Stops
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1613](https://github.com/hackdartstorm/Python/issues/1613)
 
-### The only supported minidom attribute iteration (NamedNodeMap) is O(n^2)
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/84866](https://github.com/python/cpython/issues/84866)
+### [MEDIUM] #789 - Escape The Ghosts
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1615](https://github.com/hackdartstorm/Python/issues/1615)
 
-### [BUG] state.apply is very slow when filesever has many (10,000+) files
-- **Repo:** [https://github.com/saltstack/salt](https://github.com/saltstack/salt)
-- **Issue:** [https://github.com/saltstack/salt/issues/65348](https://github.com/saltstack/salt/issues/65348)
+### [MEDIUM] #790 - Domino and Tromino Tiling
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1616](https://github.com/hackdartstorm/Python/issues/1616)
 
-### find/replacing all matches is slow
-- **Repo:** [https://github.com/Akuli/porcupine](https://github.com/Akuli/porcupine)
-- **Issue:** [https://github.com/Akuli/porcupine/issues/412](https://github.com/Akuli/porcupine/issues/412)
+### [MEDIUM] #791 - Custom Sort String
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1617](https://github.com/hackdartstorm/Python/issues/1617)
 
-### Quadratic time complexity of known_hosts file parsing
-- **Repo:** [https://github.com/paramiko/paramiko](https://github.com/paramiko/paramiko)
-- **Issue:** [https://github.com/paramiko/paramiko/issues/2251](https://github.com/paramiko/paramiko/issues/2251)
+### [MEDIUM] #792 - Number of Matching Subsequences
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1618](https://github.com/hackdartstorm/Python/issues/1618)
 
-### Investigate performance of user pages
-- **Repo:** [https://github.com/bookwyrm-social/bookwyrm](https://github.com/bookwyrm-social/bookwyrm)
-- **Issue:** [https://github.com/bookwyrm-social/bookwyrm/issues/2792](https://github.com/bookwyrm-social/bookwyrm/issues/2792)
+### [MEDIUM] #793 - Preimage Size of Factorial Zeroes Function
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1619](https://github.com/hackdartstorm/Python/issues/1619)
 
-### Domain for many combinations of surds
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/22852](https://github.com/sympy/sympy/issues/22852)
+### [MEDIUM] #794 - Valid Tic-Tac-Toe State
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1620](https://github.com/hackdartstorm/Python/issues/1620)
 
-### [BUG] Dependency resolution is quadratic
-- **Repo:** [https://github.com/saltstack/salt](https://github.com/saltstack/salt)
-- **Issue:** [https://github.com/saltstack/salt/issues/59123](https://github.com/saltstack/salt/issues/59123)
+### [MEDIUM] #795 - Number of Subarrays with Bounded Maximum
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1621](https://github.com/hackdartstorm/Python/issues/1621)
 
-### Add jump table for certain safe match-case statements
-- **Repo:** [https://github.com/python/cpython](https://github.com/python/cpython)
-- **Issue:** [https://github.com/python/cpython/issues/88449](https://github.com/python/cpython/issues/88449)
+### [MEDIUM] #797 - All Paths From Source to Target
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1623](https://github.com/hackdartstorm/Python/issues/1623)
 
-### What is the best method for sampling shots?
-- **Repo:** [https://github.com/Qiskit/qiskit](https://github.com/Qiskit/qiskit)
-- **Issue:** [https://github.com/Qiskit/qiskit/issues/8618](https://github.com/Qiskit/qiskit/issues/8618)
+### [MEDIUM] #798 - Smallest Rotation with Maximum Score
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1624](https://github.com/hackdartstorm/Python/issues/1624)
 
-### minimal_polynomial fails for very complicated algebraic number
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/23677](https://github.com/sympy/sympy/issues/23677)
+### [MEDIUM] #800 - Similar RGB Color
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1626](https://github.com/hackdartstorm/Python/issues/1626)
 
-### Speed up union simplification
-- **Repo:** [https://github.com/python/mypy](https://github.com/python/mypy)
-- **Issue:** [https://github.com/python/mypy/issues/12526](https://github.com/python/mypy/issues/12526)
+### [MEDIUM] #801 - Minimum Swaps To Make Sequences Increasing
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1627](https://github.com/hackdartstorm/Python/issues/1627)
 
-### OPTICS Benchmark and improve the performance
-- **Repo:** [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
-- **Issue:** [https://github.com/scikit-learn/scikit-learn/issues/12442](https://github.com/scikit-learn/scikit-learn/issues/12442)
+### [MEDIUM] #802 - Find Eventual Safe States
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1628](https://github.com/hackdartstorm/Python/issues/1628)
 
-### Adding profiling 
-- **Repo:** [https://github.com/codezonediitj/pydatastructs](https://github.com/codezonediitj/pydatastructs)
-- **Issue:** [https://github.com/codezonediitj/pydatastructs/issues/257](https://github.com/codezonediitj/pydatastructs/issues/257)
+### [MEDIUM] #803 - Bricks Falling When Hit
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1629](https://github.com/hackdartstorm/Python/issues/1629)
 
-### Cost per task grows with number of tasks
-- **Repo:** [https://github.com/dask/distributed](https://github.com/dask/distributed)
-- **Issue:** [https://github.com/dask/distributed/issues/2611](https://github.com/dask/distributed/issues/2611)
+### [MEDIUM] #804 - Unique Morse Code Words
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1630](https://github.com/hackdartstorm/Python/issues/1630)
 
-### (sin(x)*cos(x)).series(x, 0, 1000) takes forever
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/4137](https://github.com/sympy/sympy/issues/4137)
+### [MEDIUM] #805 - Split Array With Same Average
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1631](https://github.com/hackdartstorm/Python/issues/1631)
 
-### Layout.__init__ slow execution 
-- **Repo:** [https://github.com/pygae/clifford](https://github.com/pygae/clifford)
-- **Issue:** [https://github.com/pygae/clifford/issues/3](https://github.com/pygae/clifford/issues/3)
+### [MEDIUM] #806 - Number of Lines To Write String
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1632](https://github.com/hackdartstorm/Python/issues/1632)
 
-### Adding multiple stub files is O(n**2) in fine-grained incremental mode
-- **Repo:** [https://github.com/python/mypy](https://github.com/python/mypy)
-- **Issue:** [https://github.com/python/mypy/issues/4453](https://github.com/python/mypy/issues/4453)
+### [MEDIUM] #807 - Max Increase to Keep City Skyline
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1633](https://github.com/hackdartstorm/Python/issues/1633)
 
-### test_known_facts_consistent sometimes takes more than 10 minutes
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/9554](https://github.com/sympy/sympy/issues/9554)
+### [MEDIUM] #810 - Chalkboard XOR Game
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1636](https://github.com/hackdartstorm/Python/issues/1636)
 
-### Very large Polynomials multiplication
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/13338](https://github.com/sympy/sympy/issues/13338)
+### [MEDIUM] #811 - Subdomain Visit Count
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1637](https://github.com/hackdartstorm/Python/issues/1637)
 
-### Sum of many variable is slow
-- **Repo:** [https://github.com/sympy/sympy](https://github.com/sympy/sympy)
-- **Issue:** [https://github.com/sympy/sympy/issues/13945](https://github.com/sympy/sympy/issues/13945)
+### [MEDIUM] #812 - Largest Triangle Area
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1638](https://github.com/hackdartstorm/Python/issues/1638)
 
-### split_libraries_fastq.py list lookups
-- **Repo:** [https://github.com/biocore/qiime](https://github.com/biocore/qiime)
-- **Issue:** [https://github.com/biocore/qiime/issues/1233](https://github.com/biocore/qiime/issues/1233)
+### [MEDIUM] #813 - Largest Sum of Averages
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1639](https://github.com/hackdartstorm/Python/issues/1639)
 
 
-## Query 2: C++ — `memory leak` / `bottleneck` + `performance`
+## Query 3: Problem Solving - DP/Greedy/Recursion (`good first issue`)
 
-### epic: migrate off candle to in-house kiln-tensor (CUDA + Metal + Vulkan)
-- **Repo:** [https://github.com/ericflo/kiln](https://github.com/ericflo/kiln)
-- **Issue:** [https://github.com/ericflo/kiln/issues/1082](https://github.com/ericflo/kiln/issues/1082)
+### fix(core): max_hours_per_day <= 0 can infinite-loop (no guard in domain/use case)
+- **Repo:** [https://github.com/Kohei-Wada/taskdog](https://github.com/Kohei-Wada/taskdog)
+- **Issue:** [https://github.com/Kohei-Wada/taskdog/issues/966](https://github.com/Kohei-Wada/taskdog/issues/966)
 
-### Add cooperative interruption/cancellation hooks for long-running runs
-- **Repo:** [https://github.com/mapequation/infomap](https://github.com/mapequation/infomap)
-- **Issue:** [https://github.com/mapequation/infomap/issues/412](https://github.com/mapequation/infomap/issues/412)
+### fix(core): round_robin daily_allocations omit pre-existing (fixed/in-progress) allocations
+- **Repo:** [https://github.com/Kohei-Wada/taskdog](https://github.com/Kohei-Wada/taskdog)
+- **Issue:** [https://github.com/Kohei-Wada/taskdog/issues/965](https://github.com/Kohei-Wada/taskdog/issues/965)
 
-### [D3D6] Khalepa Ta Kala II: The Good Things Are Hard To Attain (TRLE) - Poor performance
-- **Repo:** [https://github.com/WinterSnowfall/d7vk](https://github.com/WinterSnowfall/d7vk)
-- **Issue:** [https://github.com/WinterSnowfall/d7vk/issues/206](https://github.com/WinterSnowfall/d7vk/issues/206)
+### fix(core): optimizer deadline comparison is time-of-day sensitive
+- **Repo:** [https://github.com/Kohei-Wada/taskdog](https://github.com/Kohei-Wada/taskdog)
+- **Issue:** [https://github.com/Kohei-Wada/taskdog/issues/964](https://github.com/Kohei-Wada/taskdog/issues/964)
 
-### Process time increases for no reason
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/113501](https://github.com/godotengine/godot/issues/113501)
+### [Feature Request]: Enforce the strict type checks
+- **Repo:** [https://github.com/oppia/oppia](https://github.com/oppia/oppia)
+- **Issue:** [https://github.com/oppia/oppia/issues/23496](https://github.com/oppia/oppia/issues/23496)
 
-### Inefficient Entity Rendering (no batching)
-- **Repo:** [https://github.com/luanti-org/luanti](https://github.com/luanti-org/luanti)
-- **Issue:** [https://github.com/luanti-org/luanti/issues/14018](https://github.com/luanti-org/luanti/issues/14018)
+### [BOUNTY: 1 RTC] Answer Questions in GitHub Discussions (Up to 10 RTC)
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/728](https://github.com/Scottcjn/rustchain-bounties/issues/728)
 
-### Remote Scene Tree is unusably slow in large scenes
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/78645](https://github.com/godotengine/godot/issues/78645)
+### [BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2791](https://github.com/Scottcjn/rustchain-bounties/issues/2791)
 
-### Allow objects to opt-out of `get_objects_inside_radius()`?
-- **Repo:** [https://github.com/luanti-org/luanti](https://github.com/luanti-org/luanti)
-- **Issue:** [https://github.com/luanti-org/luanti/issues/16275](https://github.com/luanti-org/luanti/issues/16275)
+### Ingest Knowledge Base from website URL or Google Drive folder
+- **Repo:** [https://github.com/future-agi/future-agi](https://github.com/future-agi/future-agi)
+- **Issue:** [https://github.com/future-agi/future-agi/issues/576](https://github.com/future-agi/future-agi/issues/576)
 
-### Major framerate drop on Windows when moving mouse in very simple project, unless profiling
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/60646](https://github.com/godotengine/godot/issues/60646)
+### Improve Testing Coverage
+- **Repo:** [https://github.com/ShellLite/ShellLite](https://github.com/ShellLite/ShellLite)
+- **Issue:** [https://github.com/ShellLite/ShellLite/issues/30](https://github.com/ShellLite/ShellLite/issues/30)
 
-### perf(buf_append): O(n) reallocation bottleneck on hot serialization path
-- **Repo:** [https://github.com/DaQshin/key-value-store](https://github.com/DaQshin/key-value-store)
-- **Issue:** [https://github.com/DaQshin/key-value-store/issues/4](https://github.com/DaQshin/key-value-store/issues/4)
+### Improve test coverage in Interpreter (`shell_lite/interpreter.py`)
+- **Repo:** [https://github.com/ShellLite/ShellLite](https://github.com/ShellLite/ShellLite)
+- **Issue:** [https://github.com/ShellLite/ShellLite/issues/33](https://github.com/ShellLite/ShellLite/issues/33)
 
-### Improve performance of entity management for the AI
-- **Repo:** [https://github.com/ElioNeto/AOE-clone](https://github.com/ElioNeto/AOE-clone)
-- **Issue:** [https://github.com/ElioNeto/AOE-clone/issues/1454](https://github.com/ElioNeto/AOE-clone/issues/1454)
+### [Refactoring] Eliminate Duplicate Suffix Lists in Rust Core (DRY Violation)
+- **Repo:** [https://github.com/cdliai/durak](https://github.com/cdliai/durak)
+- **Issue:** [https://github.com/cdliai/durak/issues/110](https://github.com/cdliai/durak/issues/110)
 
-### Vectorise `MD5` with multi-buffer SIMD implementation
-- **Repo:** [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-- **Issue:** [https://github.com/ClickHouse/ClickHouse/issues/104887](https://github.com/ClickHouse/ClickHouse/issues/104887)
+### [FUN BOUNTY: 2 RTC] Worst Mining Rig Photo Contest — Show Us Your Jankiest Setup
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2074](https://github.com/Scottcjn/rustchain-bounties/issues/2074)
 
-### [irep2] Investigate allocator strategies for irep2 nodes
-- **Repo:** [https://github.com/esbmc/esbmc](https://github.com/esbmc/esbmc)
-- **Issue:** [https://github.com/esbmc/esbmc/issues/4518](https://github.com/esbmc/esbmc/issues/4518)
+### [good first issue] Add a UCB router variant
+- **Repo:** [https://github.com/yehudalevy-collab/polis-protocol](https://github.com/yehudalevy-collab/polis-protocol)
+- **Issue:** [https://github.com/yehudalevy-collab/polis-protocol/issues/2](https://github.com/yehudalevy-collab/polis-protocol/issues/2)
 
-### Tar download very slow
-- **Repo:** [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
-- **Issue:** [https://github.com/NixOS/nix/issues/10683](https://github.com/NixOS/nix/issues/10683)
+### policy: AI Safety "Tool-Call Recursion & Rate" Limit
+- **Repo:** [https://github.com/Chimera-Protocol/csl-core](https://github.com/Chimera-Protocol/csl-core)
+- **Issue:** [https://github.com/Chimera-Protocol/csl-core/issues/52](https://github.com/Chimera-Protocol/csl-core/issues/52)
 
-### Very slow initial connection
-- **Repo:** [https://github.com/mariuz/flamerobin](https://github.com/mariuz/flamerobin)
-- **Issue:** [https://github.com/mariuz/flamerobin/issues/587](https://github.com/mariuz/flamerobin/issues/587)
+### feat: add --check-cycles flag to detect circular imports
+- **Repo:** [https://github.com/jishanahmed-shaikh/py-dep-visualizer](https://github.com/jishanahmed-shaikh/py-dep-visualizer)
+- **Issue:** [https://github.com/jishanahmed-shaikh/py-dep-visualizer/issues/2](https://github.com/jishanahmed-shaikh/py-dep-visualizer/issues/2)
 
-### call function creating an empty array before calling GDE method pointer
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/119440](https://github.com/godotengine/godot/issues/119440)
+### autosubmit monitor for an experiment without the structures table results in max recursion depth error
+- **Repo:** [https://github.com/BSC-ES/autosubmit](https://github.com/BSC-ES/autosubmit)
+- **Issue:** [https://github.com/BSC-ES/autosubmit/issues/2646](https://github.com/BSC-ES/autosubmit/issues/2646)
 
-### Zero-Allocation Parsing with std::from_chars
-- **Repo:** [https://github.com/aachen-investment-club/backtest-cpp](https://github.com/aachen-investment-club/backtest-cpp)
-- **Issue:** [https://github.com/aachen-investment-club/backtest-cpp/issues/8](https://github.com/aachen-investment-club/backtest-cpp/issues/8)
+### [ENH] delay based detection metrics for advance event detection
+- **Repo:** [https://github.com/sktime/sktime](https://github.com/sktime/sktime)
+- **Issue:** [https://github.com/sktime/sktime/issues/9887](https://github.com/sktime/sktime/issues/9887)
 
-### Expose template type of `compute_distance_gjk` to Python users
-- **Repo:** [https://github.com/FEniCS/dolfinx](https://github.com/FEniCS/dolfinx)
-- **Issue:** [https://github.com/FEniCS/dolfinx/issues/3836](https://github.com/FEniCS/dolfinx/issues/3836)
+### Make random tie breaking the default in greedy construction, beam search and best-improvement local search
+- **Repo:** [https://github.com/roar-net/roar-net-api-py](https://github.com/roar-net/roar-net-api-py)
+- **Issue:** [https://github.com/roar-net/roar-net-api-py/issues/21](https://github.com/roar-net/roar-net-api-py/issues/21)
 
-### Frequent hangs - Since at least 4.4.5, now 5.1.2
-- **Repo:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-- **Issue:** [https://github.com/qbittorrent/qBittorrent/issues/23335](https://github.com/qbittorrent/qBittorrent/issues/23335)
+### [MEDIUM] #1879 - Minimum XOR Sum of Two Arrays
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2669](https://github.com/hackdartstorm/Python/issues/2669)
 
-### [O2Jam (2003)] Poor performance, color keying issues, Alt-Tab rendering break, and missing DDraw hooks in UI
-- **Repo:** [https://github.com/WinterSnowfall/d7vk](https://github.com/WinterSnowfall/d7vk)
-- **Issue:** [https://github.com/WinterSnowfall/d7vk/issues/226](https://github.com/WinterSnowfall/d7vk/issues/226)
+### Lyrics: force / use a specific URL for lyrics
+- **Repo:** [https://github.com/beetbox/beets](https://github.com/beetbox/beets)
+- **Issue:** [https://github.com/beetbox/beets/issues/6439](https://github.com/beetbox/beets/issues/6439)
 
-### nix garbage collection is suspiciously slow
-- **Repo:** [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
-- **Issue:** [https://github.com/NixOS/nix/issues/9581](https://github.com/NixOS/nix/issues/9581)
+### [DOC] Feedback thread on tutorial notebooks
+- **Repo:** [https://github.com/sktime/sktime](https://github.com/sktime/sktime)
+- **Issue:** [https://github.com/sktime/sktime/issues/1447](https://github.com/sktime/sktime/issues/1447)
 
-### Fallback alloc is still getting triggered
-- **Repo:** [https://github.com/TwilitRealm/dusklight](https://github.com/TwilitRealm/dusklight)
-- **Issue:** [https://github.com/TwilitRealm/dusklight/issues/220](https://github.com/TwilitRealm/dusklight/issues/220)
+### Tutorial series: Understanding BMSSP step by step
+- **Repo:** [https://github.com/DiogoRibeiro7/bmssp-algorithm](https://github.com/DiogoRibeiro7/bmssp-algorithm)
+- **Issue:** [https://github.com/DiogoRibeiro7/bmssp-algorithm/issues/18](https://github.com/DiogoRibeiro7/bmssp-algorithm/issues/18)
 
-### Dynamic recompiler for SH-2 and SH-1 CPUs
-- **Repo:** [https://github.com/StrikerX3/Ymir](https://github.com/StrikerX3/Ymir)
-- **Issue:** [https://github.com/StrikerX3/Ymir/issues/841](https://github.com/StrikerX3/Ymir/issues/841)
+### [MEDIUM] #1874 - Minimize Product Sum of Two Arrays
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2664](https://github.com/hackdartstorm/Python/issues/2664)
 
-### Introduce new logging approach
-- **Repo:** [https://github.com/Roy2player/MSAPI](https://github.com/Roy2player/MSAPI)
-- **Issue:** [https://github.com/Roy2player/MSAPI/issues/46](https://github.com/Roy2player/MSAPI/issues/46)
+### [MEDIUM] #1080 - Insufficient Nodes in Root to Leaf Paths
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/1867](https://github.com/hackdartstorm/Python/issues/1867)
 
-### Multi-threaded (or even multi-GPU) rendering?
-- **Repo:** [https://github.com/gazebosim/gz-sensors](https://github.com/gazebosim/gz-sensors)
-- **Issue:** [https://github.com/gazebosim/gz-sensors/issues/81](https://github.com/gazebosim/gz-sensors/issues/81)
+### feat: filter problems by topic tag
+- **Repo:** [https://github.com/Jatin-Shihora/leetshell](https://github.com/Jatin-Shihora/leetshell)
+- **Issue:** [https://github.com/Jatin-Shihora/leetshell/issues/2](https://github.com/Jatin-Shihora/leetshell/issues/2)
 
-### NPU support in whisper.cpp
-- **Repo:** [https://github.com/ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp)
-- **Issue:** [https://github.com/ggml-org/whisper.cpp/issues/1557](https://github.com/ggml-org/whisper.cpp/issues/1557)
+### Example: model a simple chat bot as a CSP process
+- **Repo:** [https://github.com/agenticraft/agenticraft-foundation](https://github.com/agenticraft/agenticraft-foundation)
+- **Issue:** [https://github.com/agenticraft/agenticraft-foundation/issues/4](https://github.com/agenticraft/agenticraft-foundation/issues/4)
 
-### Bug : memory leaks with strings as variables
-- **Repo:** [https://github.com/lfortran/lfortran](https://github.com/lfortran/lfortran)
-- **Issue:** [https://github.com/lfortran/lfortran/issues/6444](https://github.com/lfortran/lfortran/issues/6444)
+### [MEDIUM] #1815 - Maximum Number of Groups Getting Fresh Donuts
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2605](https://github.com/hackdartstorm/Python/issues/2605)
 
-### High to extreme memory usage and freezes when zooming
-- **Repo:** [https://github.com/xournalpp/xournalpp](https://github.com/xournalpp/xournalpp)
-- **Issue:** [https://github.com/xournalpp/xournalpp/issues/2515](https://github.com/xournalpp/xournalpp/issues/2515)
+### Implement greedy cohesive rule and greedy justified candidate rule 
+- **Repo:** [https://github.com/martinlackner/abcvoting](https://github.com/martinlackner/abcvoting)
+- **Issue:** [https://github.com/martinlackner/abcvoting/issues/79](https://github.com/martinlackner/abcvoting/issues/79)
 
-### Cache JSON stats in memory instead of per-request file I/O
-- **Repo:** [https://github.com/UBICO/SCIoT_python_client](https://github.com/UBICO/SCIoT_python_client)
-- **Issue:** [https://github.com/UBICO/SCIoT_python_client/issues/1](https://github.com/UBICO/SCIoT_python_client/issues/1)
+### [MEDIUM] #1877 - Minimize Maximum Pair Sum in Array
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2667](https://github.com/hackdartstorm/Python/issues/2667)
 
-### Time breakdown
-- **Repo:** [https://github.com/UBICO/SCIoT_python_client](https://github.com/UBICO/SCIoT_python_client)
-- **Issue:** [https://github.com/UBICO/SCIoT_python_client/issues/16](https://github.com/UBICO/SCIoT_python_client/issues/16)
+### [MEDIUM] #1872 - Stone Game VIII
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2662](https://github.com/hackdartstorm/Python/issues/2662)
 
-### ABACUS MD simulation with LCAO runs out of memory after ~37 steps
-- **Repo:** [https://github.com/deepmodeling/abacus-develop](https://github.com/deepmodeling/abacus-develop)
-- **Issue:** [https://github.com/deepmodeling/abacus-develop/issues/7209](https://github.com/deepmodeling/abacus-develop/issues/7209)
+### [MEDIUM] #1871 - Jump Game VII
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2661](https://github.com/hackdartstorm/Python/issues/2661)
 
-### Deleting / detaching / moving large numbers of child nodes can be excessively slow
-- **Repo:** [https://github.com/rayamazaky/godot](https://github.com/rayamazaky/godot)
-- **Issue:** [https://github.com/rayamazaky/godot/issues/323](https://github.com/rayamazaky/godot/issues/323)
+### [MEDIUM] #1866 - Number of Ways to Rearrange Sticks With K Sticks Visible
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2656](https://github.com/hackdartstorm/Python/issues/2656)
 
-### Qbittorrent creating tcpip.sys non paged pool memory leak on Windows 11 only
-- **Repo:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-- **Issue:** [https://github.com/qbittorrent/qBittorrent/issues/17218](https://github.com/qbittorrent/qBittorrent/issues/17218)
+### [MEDIUM] #1864 - Minimum Number of Swaps to Make the Binary String Alternating
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2654](https://github.com/hackdartstorm/Python/issues/2654)
 
-### Performance Testing Pipeline - Automated Benchmarks
-- **Repo:** [https://github.com/sabuguinni/transpersonal_game_studio](https://github.com/sabuguinni/transpersonal_game_studio)
-- **Issue:** [https://github.com/sabuguinni/transpersonal_game_studio/issues/195](https://github.com/sabuguinni/transpersonal_game_studio/issues/195)
+### [MEDIUM] #1850 - Minimum Adjacent Swaps to Reach the Kth Smallest Number
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2640](https://github.com/hackdartstorm/Python/issues/2640)
 
-### [QA] Automated Test Suite Implementation - Dinosaur AI Behavior
-- **Repo:** [https://github.com/sabuguinni/transpersonal_game_studio](https://github.com/sabuguinni/transpersonal_game_studio)
-- **Issue:** [https://github.com/sabuguinni/transpersonal_game_studio/issues/174](https://github.com/sabuguinni/transpersonal_game_studio/issues/174)
+### [MEDIUM] #1846 - Maximum Element After Decreasing and Rearranging
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2636](https://github.com/hackdartstorm/Python/issues/2636)
 
-### [QA] Automation Test Framework Configuration - Base Setup
-- **Repo:** [https://github.com/sabuguinni/transpersonal_game_studio](https://github.com/sabuguinni/transpersonal_game_studio)
-- **Issue:** [https://github.com/sabuguinni/transpersonal_game_studio/issues/170](https://github.com/sabuguinni/transpersonal_game_studio/issues/170)
+### [MEDIUM] #1840 - Maximum Building Height
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2630](https://github.com/hackdartstorm/Python/issues/2630)
 
-### Benchmark and optimize hot paths in lexer, parser, evaluator, and renderer
-- **Repo:** [https://github.com/Coditary/Prebyte](https://github.com/Coditary/Prebyte)
-- **Issue:** [https://github.com/Coditary/Prebyte/issues/28](https://github.com/Coditary/Prebyte/issues/28)
+### [MEDIUM] #1833 - Maximum Ice Cream Bars
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2623](https://github.com/hackdartstorm/Python/issues/2623)
 
-### Exporting using s3 table function might create too many threads
-- **Repo:** [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-- **Issue:** [https://github.com/ClickHouse/ClickHouse/issues/51533](https://github.com/ClickHouse/ClickHouse/issues/51533)
+### [MEDIUM] #1824 - Minimum Sideway Jumps
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2614](https://github.com/hackdartstorm/Python/issues/2614)
 
-### cudf C++ Compilation Time Optimization Report
-- **Repo:** [https://github.com/rapidsai/cudf](https://github.com/rapidsai/cudf)
-- **Issue:** [https://github.com/rapidsai/cudf/issues/21973](https://github.com/rapidsai/cudf/issues/21973)
+### [MEDIUM] #1799 - Maximize Score After N Operations
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2589](https://github.com/hackdartstorm/Python/issues/2589)
 
-### Terrible performance with more than a few CharacterBody3D's moving around in a production level.
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/93184](https://github.com/godotengine/godot/issues/93184)
+### [MEDIUM] #1798 - Maximum Number of Consecutive Values You Can Make
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2588](https://github.com/hackdartstorm/Python/issues/2588)
 
-### Missing avx2-i64x8 target (ie. double pumping for 64-bit codes)
-- **Repo:** [https://github.com/ispc/ispc](https://github.com/ispc/ispc)
-- **Issue:** [https://github.com/ispc/ispc/issues/2903](https://github.com/ispc/ispc/issues/2903)
+### [MEDIUM] #1788 - Maximize the Beauty of the Garden
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2578](https://github.com/hackdartstorm/Python/issues/2578)
 
-### Slow compiling time for an unconstrained quadratic problem 
-- **Repo:** [https://github.com/cvxpy/cvxpy](https://github.com/cvxpy/cvxpy)
-- **Issue:** [https://github.com/cvxpy/cvxpy/issues/2205](https://github.com/cvxpy/cvxpy/issues/2205)
+### [MEDIUM] #1787 - Make the XOR of All Segments Equal to Zero
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2577](https://github.com/hackdartstorm/Python/issues/2577)
 
-### Animation Performance Problems
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/101494](https://github.com/godotengine/godot/issues/101494)
+### [MEDIUM] #1775 - Equal Sum Arrays With Minimum Number of Operations
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2565](https://github.com/hackdartstorm/Python/issues/2565)
 
-### Godot 4 editor UI (menus) significantly slower than 3.x
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/71795](https://github.com/godotengine/godot/issues/71795)
+### [MEDIUM] #1771 - Maximize Palindrome Length From Subsequences
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2561](https://github.com/hackdartstorm/Python/issues/2561)
 
-### GdScript 2.0: Loading and expanding a script significantly slower than in Godot3 
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/67400](https://github.com/godotengine/godot/issues/67400)
+### [MEDIUM] #1770 - Maximum Score from Performing Multiplication Operations
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2560](https://github.com/hackdartstorm/Python/issues/2560)
 
-### Eval bug: Qwen 3 Next CUDA poor performance
-- **Repo:** [https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
-- **Issue:** [https://github.com/ggml-org/llama.cpp/issues/17822](https://github.com/ggml-org/llama.cpp/issues/17822)
+### [MEDIUM] #1753 - Maximum Score From Removing Stones
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2543](https://github.com/hackdartstorm/Python/issues/2543)
 
-### Misc. bug: Totally broken for agentic use on Intel dGPUs
-- **Repo:** [https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
-- **Issue:** [https://github.com/ggml-org/llama.cpp/issues/18808](https://github.com/ggml-org/llama.cpp/issues/18808)
+### [MEDIUM] #1751 - Maximize Number of Subsequences in a String
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2541](https://github.com/hackdartstorm/Python/issues/2541)
 
-### [PERF][CRITICAL] Default contact model (CONTACT_MODEL_INDEX=2) time integration is entirely sequential
-- **Repo:** [https://github.com/nilesh-patil/simucell3d](https://github.com/nilesh-patil/simucell3d)
-- **Issue:** [https://github.com/nilesh-patil/simucell3d/issues/104](https://github.com/nilesh-patil/simucell3d/issues/104)
+### [MEDIUM] #1746 - Maximum Subarray Sum After One Operation
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2536](https://github.com/hackdartstorm/Python/issues/2536)
 
-### Slow CREATE/DELETE and SYSTEM SYNC REPLICA suddenly appeared
-- **Repo:** [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-- **Issue:** [https://github.com/ClickHouse/ClickHouse/issues/98586](https://github.com/ClickHouse/ClickHouse/issues/98586)
+### [MEDIUM] #1745 - Palindrome Partitioning IV
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2535](https://github.com/hackdartstorm/Python/issues/2535)
 
-### Gran Turismo: Performance problem in menus
-- **Repo:** [https://github.com/hrydgard/ppsspp](https://github.com/hrydgard/ppsspp)
-- **Issue:** [https://github.com/hrydgard/ppsspp/issues/13460](https://github.com/hrydgard/ppsspp/issues/13460)
+### [MEDIUM] #1738 - Find Kth Largest XOR Coordinate Value
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2528](https://github.com/hackdartstorm/Python/issues/2528)
 
-### ClickHouse Merge Performance Bottleneck causing slower insertions with High-Volume Time-Series Ingestion
-- **Repo:** [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-- **Issue:** [https://github.com/ClickHouse/ClickHouse/issues/92976](https://github.com/ClickHouse/ClickHouse/issues/92976)
+### [MEDIUM] #1737 - Change Minimum Characters to Satisfy One of Three Conditions
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2527](https://github.com/hackdartstorm/Python/issues/2527)
 
-### Tomb Raider Anniversary and Tomb Raider Legend strange framerate drop
-- **Repo:** [https://github.com/hrydgard/ppsspp](https://github.com/hrydgard/ppsspp)
-- **Issue:** [https://github.com/hrydgard/ppsspp/issues/7677](https://github.com/hrydgard/ppsspp/issues/7677)
+### [MEDIUM] #1728 - Cat and Mouse II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2518](https://github.com/hackdartstorm/Python/issues/2518)
 
-### Graph is slow to open when opening a big function
-- **Repo:** [https://github.com/rizinorg/cutter](https://github.com/rizinorg/cutter)
-- **Issue:** [https://github.com/rizinorg/cutter/issues/2099](https://github.com/rizinorg/cutter/issues/2099)
+### [MEDIUM] #1717 - Maximum Score From Removing Substrings
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2507](https://github.com/hackdartstorm/Python/issues/2507)
 
-### Godot 4.3/4.4.1 memory leak bug
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/96598](https://github.com/godotengine/godot/issues/96598)
+### [MEDIUM] #1710 - Maximum Units on a Truck
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2500](https://github.com/hackdartstorm/Python/issues/2500)
 
-### Performance comparison: Two-loop vs modulo for snapshot cache search
-- **Repo:** [https://github.com/JustinLye/jage](https://github.com/JustinLye/jage)
-- **Issue:** [https://github.com/JustinLye/jage/issues/51](https://github.com/JustinLye/jage/issues/51)
+### [MEDIUM] #1702 - Maximum Binary String After Change
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2492](https://github.com/hackdartstorm/Python/issues/2492)
 
-### 4.4 - set_cell on a large TilemapLayer hangs the game
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/105957](https://github.com/godotengine/godot/issues/105957)
+### [MEDIUM] #1696 - Jump Game VI
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2486](https://github.com/hackdartstorm/Python/issues/2486)
 
-### [Feature request] Better performance on eGPUs 
-- **Repo:** [https://github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk)
-- **Issue:** [https://github.com/doitsujin/dxvk/issues/3694](https://github.com/doitsujin/dxvk/issues/3694)
+### [MEDIUM] #1692 - Count Ways to Distribute Candies
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2482](https://github.com/hackdartstorm/Python/issues/2482)
 
-### perf: Implement conditional lifecycle hook installation to reduce overhead when features are disabled
-- **Repo:** [https://github.com/community-shaders/skyrim-community-shaders](https://github.com/community-shaders/skyrim-community-shaders)
-- **Issue:** [https://github.com/community-shaders/skyrim-community-shaders/issues/1753](https://github.com/community-shaders/skyrim-community-shaders/issues/1753)
+### [MEDIUM] #1691 - Maximum Height by Stacking Cuboids
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2481](https://github.com/hackdartstorm/Python/issues/2481)
 
-### `nix-build` is not freeing eval memory during long builds
-- **Repo:** [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
-- **Issue:** [https://github.com/NixOS/nix/issues/5200](https://github.com/NixOS/nix/issues/5200)
+### [MEDIUM] #1690 - Stone Game VII
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2480](https://github.com/hackdartstorm/Python/issues/2480)
 
-### Exclusive Fullscreen on Windows causes critical VRAM memory leak (OpenGL and Vulkan)
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/114903](https://github.com/godotengine/godot/issues/114903)
+### [MEDIUM] #1689 - Partitioning Into Minimum Number Of Deci-Binary Numbers
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2479](https://github.com/hackdartstorm/Python/issues/2479)
 
-### FPS drop when mesh gets squished too much
-- **Repo:** [https://github.com/mzschwartz5/cubit](https://github.com/mzschwartz5/cubit)
-- **Issue:** [https://github.com/mzschwartz5/cubit/issues/93](https://github.com/mzschwartz5/cubit/issues/93)
+### [MEDIUM] #1687 - Delivering Boxes from Storage to Ports
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2477](https://github.com/hackdartstorm/Python/issues/2477)
 
-### [Performance] Improve HashJoin performance in Array Mode via RowContainer reclustering to reduce cache misses
-- **Repo:** [https://github.com/bytedance/bolt](https://github.com/bytedance/bolt)
-- **Issue:** [https://github.com/bytedance/bolt/issues/51](https://github.com/bytedance/bolt/issues/51)
+### [MEDIUM] #1686 - Stone Game VI
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2476](https://github.com/hackdartstorm/Python/issues/2476)
 
-### Slower training speed for ResNet-18 compared to Torch
-- **Repo:** [https://github.com/ml-explore/mlx](https://github.com/ml-explore/mlx)
-- **Issue:** [https://github.com/ml-explore/mlx/issues/2770](https://github.com/ml-explore/mlx/issues/2770)
+### [MEDIUM] #1682 - Longest Palindromic Subsequence II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2472](https://github.com/hackdartstorm/Python/issues/2472)
 
-### Optimize Index Storage Format (Binary/Protobuf)
-- **Repo:** [https://github.com/Digvijay-x1/IGI](https://github.com/Digvijay-x1/IGI)
-- **Issue:** [https://github.com/Digvijay-x1/IGI/issues/26](https://github.com/Digvijay-x1/IGI/issues/26)
+### [MEDIUM] #1681 - Minimum Incompatibility
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2471](https://github.com/hackdartstorm/Python/issues/2471)
 
-### Scene_Battle::UpdateEvents renders full status window on every frame
-- **Repo:** [https://github.com/EasyRPG/Player](https://github.com/EasyRPG/Player)
-- **Issue:** [https://github.com/EasyRPG/Player/issues/3494](https://github.com/EasyRPG/Player/issues/3494)
+### [MEDIUM] #1671 - Minimum Number of Removals to Make Mountain Array
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2461](https://github.com/hackdartstorm/Python/issues/2461)
 
-### High Disk I/O and latency on nodes with read_rows = 0 (0 selected parts) during distributed query
-- **Repo:** [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-- **Issue:** [https://github.com/ClickHouse/ClickHouse/issues/91762](https://github.com/ClickHouse/ClickHouse/issues/91762)
+### [MEDIUM] #1665 - Minimum Initial Energy to Finish Tasks
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2455](https://github.com/hackdartstorm/Python/issues/2455)
 
-### When drawing a graph with draw_rect () or draw_circle (), draw calls cannot be batch-processed.
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/107042](https://github.com/godotengine/godot/issues/107042)
+### [MEDIUM] #1663 - Smallest String With A Given Numeric Value
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2453](https://github.com/hackdartstorm/Python/issues/2453)
 
-### Dark Souls (Original): Steam Deck Performance issues
-- **Repo:** [https://github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk)
-- **Issue:** [https://github.com/doitsujin/dxvk/issues/4836](https://github.com/doitsujin/dxvk/issues/4836)
+### [MEDIUM] #1659 - Maximize Grid Happiness
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2449](https://github.com/hackdartstorm/Python/issues/2449)
 
-### qBittorrent hoarding tons of "VIRT" memory. "File error: out of memory"
-- **Repo:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-- **Issue:** [https://github.com/qbittorrent/qBittorrent/issues/22099](https://github.com/qbittorrent/qBittorrent/issues/22099)
+### [MEDIUM] #1648 - Sell Diminishing-Valued Colored Balls
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2438](https://github.com/hackdartstorm/Python/issues/2438)
 
-### Improve texture streaming to reduce stutter
-- **Repo:** [https://github.com/secondlife/viewer](https://github.com/secondlife/viewer)
-- **Issue:** [https://github.com/secondlife/viewer/issues/4274](https://github.com/secondlife/viewer/issues/4274)
+### [MEDIUM] #1647 - Minimum Deletions to Make Character Frequencies Unique
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2437](https://github.com/hackdartstorm/Python/issues/2437)
 
-### Memory usage in eval
-- **Repo:** [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
-- **Issue:** [https://github.com/NixOS/nix/issues/8621](https://github.com/NixOS/nix/issues/8621)
+### [MEDIUM] #1641 - Count Sorted Vowel Strings
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2431](https://github.com/hackdartstorm/Python/issues/2431)
 
-### Dying Light (2015), performance worse than Windows
-- **Repo:** [https://github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk)
-- **Issue:** [https://github.com/doitsujin/dxvk/issues/5298](https://github.com/doitsujin/dxvk/issues/5298)
+### [MEDIUM] #1639 - Number of Ways to Form a Target String Given a Dictionary
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2429](https://github.com/hackdartstorm/Python/issues/2429)
 
-### Performance Benchmarking Tools (Automated Accuracy/Latency/CPU Measurement)
-- **Repo:** [https://github.com/zarfld/IEEE_1588_2019](https://github.com/zarfld/IEEE_1588_2019)
-- **Issue:** [https://github.com/zarfld/IEEE_1588_2019/issues/7](https://github.com/zarfld/IEEE_1588_2019/issues/7)
+### [MEDIUM] #1626 - Best Team With No Conflicts
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2416](https://github.com/hackdartstorm/Python/issues/2416)
 
-### Feature Plan: gRPC API Migration & Performance Optimization
-- **Repo:** [https://github.com/nam20485/OdbDesign](https://github.com/nam20485/OdbDesign)
-- **Issue:** [https://github.com/nam20485/OdbDesign/issues/490](https://github.com/nam20485/OdbDesign/issues/490)
+### [MEDIUM] #1621 - Number of Sets of K Non-Overlapping Line Segments
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2411](https://github.com/hackdartstorm/Python/issues/2411)
 
-### Godot 4.x is significantly slower than 3.5.1 in creating nodes
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/71182](https://github.com/godotengine/godot/issues/71182)
+### [MEDIUM] #1605 - Find Valid Matrix Given Row and Column Sums
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2395](https://github.com/hackdartstorm/Python/issues/2395)
 
-### [3.x] Poor mobile performance on HTML5 export
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/58836](https://github.com/godotengine/godot/issues/58836)
+### [MEDIUM] #1595 - Minimum Cost to Connect Two Groups of Points
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2385](https://github.com/hackdartstorm/Python/issues/2385)
 
-### P6-T1: VR Performance Optimization
-- **Repo:** [https://github.com/nap-of-the-earth/NapOfTheVR](https://github.com/nap-of-the-earth/NapOfTheVR)
-- **Issue:** [https://github.com/nap-of-the-earth/NapOfTheVR/issues/34](https://github.com/nap-of-the-earth/NapOfTheVR/issues/34)
+### [MEDIUM] #1594 - Maximum Non Negative Product in a Matrix
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2384](https://github.com/hackdartstorm/Python/issues/2384)
 
-### Optimize map rendering
-- **Repo:** [https://github.com/luanti-org/luanti](https://github.com/luanti-org/luanti)
-- **Issue:** [https://github.com/luanti-org/luanti/issues/10647](https://github.com/luanti-org/luanti/issues/10647)
+### [MEDIUM] #1591 - Strange Printer II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2381](https://github.com/hackdartstorm/Python/issues/2381)
 
-### NMODL is slow in translating complicated models
-- **Repo:** [https://github.com/neuronsimulator/nrn](https://github.com/neuronsimulator/nrn)
-- **Issue:** [https://github.com/neuronsimulator/nrn/issues/3620](https://github.com/neuronsimulator/nrn/issues/3620)
+### [MEDIUM] #1589 - Maximum Sum Obtained of Any Permutation
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2379](https://github.com/hackdartstorm/Python/issues/2379)
 
-### Multithread/async updateStorageBuffer approach
-- **Repo:** [https://github.com/GercogKaban/LatropEngine](https://github.com/GercogKaban/LatropEngine)
-- **Issue:** [https://github.com/GercogKaban/LatropEngine/issues/35](https://github.com/GercogKaban/LatropEngine/issues/35)
+### [MEDIUM] #1580 - Put Boxes Into the Warehouse II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2370](https://github.com/hackdartstorm/Python/issues/2370)
 
-### Skeleton Heavy CPU Bottleneck
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/93568](https://github.com/godotengine/godot/issues/93568)
+### [MEDIUM] #1578 - Minimum Deletion Cost to Avoid Repeating Letters
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2368](https://github.com/hackdartstorm/Python/issues/2368)
 
-### Lock contention when getting list of active parts in SELECT query
-- **Repo:** [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-- **Issue:** [https://github.com/ClickHouse/ClickHouse/issues/88003](https://github.com/ClickHouse/ClickHouse/issues/88003)
+### [MEDIUM] #1575 - Count All Possible Routes
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2365](https://github.com/hackdartstorm/Python/issues/2365)
 
-### [REFACTOR] FreqVox Performance Optimization - 240X Speedup Roadmap
-- **Repo:** [https://github.com/TiGRoNdev/SpectraForge](https://github.com/TiGRoNdev/SpectraForge)
-- **Issue:** [https://github.com/TiGRoNdev/SpectraForge/issues/17](https://github.com/TiGRoNdev/SpectraForge/issues/17)
+### [MEDIUM] #1569 - Number of Ways to Reorder Array to Get Same BST
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2359](https://github.com/hackdartstorm/Python/issues/2359)
 
-### Initial synch performance
-- **Repo:** [https://github.com/cculianu/Fulcrum](https://github.com/cculianu/Fulcrum)
-- **Issue:** [https://github.com/cculianu/Fulcrum/issues/96](https://github.com/cculianu/Fulcrum/issues/96)
+### [MEDIUM] #1567 - Maximum Length of Subarray With Positive Product
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2357](https://github.com/hackdartstorm/Python/issues/2357)
 
-### Performance degradation and system freeze issues
-- **Repo:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-- **Issue:** [https://github.com/qbittorrent/qBittorrent/issues/23308](https://github.com/qbittorrent/qBittorrent/issues/23308)
+### [MEDIUM] #1564 - Put Boxes Into the Warehouse I
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2354](https://github.com/hackdartstorm/Python/issues/2354)
 
-### Lights CPU Performance problems
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/110436](https://github.com/godotengine/godot/issues/110436)
+### [MEDIUM] #1563 - Stone Game V
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2353](https://github.com/hackdartstorm/Python/issues/2353)
 
-### Increase internal CDC parallelism
-- **Repo:** [https://github.com/XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs)
-- **Issue:** [https://github.com/XTXMarkets/ternfs/issues/28](https://github.com/XTXMarkets/ternfs/issues/28)
+### [MEDIUM] #1561 - Maximum Number of Coins You Can Get
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2351](https://github.com/hackdartstorm/Python/issues/2351)
 
-### Replace `std::set` in the `LocatedTriples` classes
-- **Repo:** [https://github.com/ad-freiburg/qlever](https://github.com/ad-freiburg/qlever)
-- **Issue:** [https://github.com/ad-freiburg/qlever/issues/2086](https://github.com/ad-freiburg/qlever/issues/2086)
+### [MEDIUM] #1558 - Minimum Numbers of Function Calls to Make Target Array
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2348](https://github.com/hackdartstorm/Python/issues/2348)
 
-### Tile image cache (in RAM) should be reference-counted
-- **Repo:** [https://github.com/luanti-org/luanti](https://github.com/luanti-org/luanti)
-- **Issue:** [https://github.com/luanti-org/luanti/issues/11531](https://github.com/luanti-org/luanti/issues/11531)
+### [MEDIUM] #1553 - Minimum Number of Days to Eat N Oranges
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2343](https://github.com/hackdartstorm/Python/issues/2343)
 
-### Updating a mesh leaks memory and uses more CPU while window is minimized
-- **Repo:** [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
-- **Issue:** [https://github.com/godotengine/godot/issues/78918](https://github.com/godotengine/godot/issues/78918)
+### [MEDIUM] #1548 - The Most Similar Path in a Graph
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2338](https://github.com/hackdartstorm/Python/issues/2338)
+
+### [MEDIUM] #1547 - Minimum Cost to Cut a Stick
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2337](https://github.com/hackdartstorm/Python/issues/2337)
+
+### [MEDIUM] #1536 - Minimum Swaps to Arrange a Binary Grid
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2326](https://github.com/hackdartstorm/Python/issues/2326)
+
+### [MEDIUM] #1531 - String Compression II
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2321](https://github.com/hackdartstorm/Python/issues/2321)
+
+### [MEDIUM] #1524 - Number of Sub-arrays With Odd Sum
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2314](https://github.com/hackdartstorm/Python/issues/2314)
+
+### [MEDIUM] #1520 - Maximum Number of Non-Overlapping Substrings
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2310](https://github.com/hackdartstorm/Python/issues/2310)
+
+### [MEDIUM] #1510 - Stone Game IV
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2299](https://github.com/hackdartstorm/Python/issues/2299)
+
+### [MEDIUM] #1505 - Minimum Possible Integer After at Most K Adjacent Swaps On Digits
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2294](https://github.com/hackdartstorm/Python/issues/2294)
+
+### [MEDIUM] #1504 - Count Submatrices With All Ones
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2293](https://github.com/hackdartstorm/Python/issues/2293)
+
+### [MEDIUM] #1488 - Avoid Flood in The City
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2277](https://github.com/hackdartstorm/Python/issues/2277)
+
+### [MEDIUM] #1481 - Least Number of Unique Integers after K Removals
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2270](https://github.com/hackdartstorm/Python/issues/2270)
+
+### [MEDIUM] #1478 - Allocate Mailboxes
+- **Repo:** [https://github.com/hackdartstorm/Python](https://github.com/hackdartstorm/Python)
+- **Issue:** [https://github.com/hackdartstorm/Python/issues/2266](https://github.com/hackdartstorm/Python/issues/2266)
+
+
+## Query 4: General Algorithms (`good first issue` + `algorithm` label)
+
+### Add condition: 4AT delirium screen (Bellelli 2014)
+- **Repo:** [https://github.com/txthedx/autonomous-care-algorithms](https://github.com/txthedx/autonomous-care-algorithms)
+- **Issue:** [https://github.com/txthedx/autonomous-care-algorithms/issues/17](https://github.com/txthedx/autonomous-care-algorithms/issues/17)
+
+### [Algorithms] Implement WalkSAT algorithm
+- **Repo:** [https://github.com/dpalmasan/py-logic](https://github.com/dpalmasan/py-logic)
+- **Issue:** [https://github.com/dpalmasan/py-logic/issues/33](https://github.com/dpalmasan/py-logic/issues/33)
+
+### Implement a Simple Moving Average Crossover Strategy
+- **Repo:** [https://github.com/ryanr08/DeepThought](https://github.com/ryanr08/DeepThought)
+- **Issue:** [https://github.com/ryanr08/DeepThought/issues/19](https://github.com/ryanr08/DeepThought/issues/19)
+
+### Add PolynomialTransformer
+- **Repo:** [https://github.com/dask/dask-ml](https://github.com/dask/dask-ml)
+- **Issue:** [https://github.com/dask/dask-ml/issues/347](https://github.com/dask/dask-ml/issues/347)
+
+
+## Query 5: Neuro-Symbolic AI (rare, might not have good first issue label)
+
+### [2026-06-04] Scientific Workflows — 3 paper(s)
+- **Repo:** [https://github.com/EuniAI/awesome-code-agents](https://github.com/EuniAI/awesome-code-agents)
+- **Issue:** [https://github.com/EuniAI/awesome-code-agents/issues/91](https://github.com/EuniAI/awesome-code-agents/issues/91)
+
+### Latest 50 Papers - June 04, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/89](https://github.com/NeoFii/DailyArXiv/issues/89)
+
+### [FR] Built-in deterministic "Tier 1" scorers — rule-based structural & safety checks that run before LLM judges
+- **Repo:** [https://github.com/mlflow/mlflow](https://github.com/mlflow/mlflow)
+- **Issue:** [https://github.com/mlflow/mlflow/issues/20827](https://github.com/mlflow/mlflow/issues/20827)
+
+### RFC: Graph-Based EP Overlap For GraphTrainer
+- **Repo:** [https://github.com/pytorch/torchtitan](https://github.com/pytorch/torchtitan)
+- **Issue:** [https://github.com/pytorch/torchtitan/issues/3434](https://github.com/pytorch/torchtitan/issues/3434)
+
+### Latest 50 Papers - June 03, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/88](https://github.com/NeoFii/DailyArXiv/issues/88)
+
+### Latest 50 Papers - June 02, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/87](https://github.com/NeoFii/DailyArXiv/issues/87)
+
+### AI co-scientist updates
+- **Repo:** [https://github.com/scripps-ai-enablement/sci-ai-enabler](https://github.com/scripps-ai-enablement/sci-ai-enabler)
+- **Issue:** [https://github.com/scripps-ai-enablement/sci-ai-enabler/issues/10](https://github.com/scripps-ai-enablement/sci-ai-enabler/issues/10)
+
+### [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+- **Repo:** [https://github.com/aLexzzz430/Cognitive-OS](https://github.com/aLexzzz430/Cognitive-OS)
+- **Issue:** [https://github.com/aLexzzz430/Cognitive-OS/issues/5](https://github.com/aLexzzz430/Cognitive-OS/issues/5)
+
+### Latest 15 Papers - June 02, 2026
+- **Repo:** [https://github.com/jyyang621/DailyArXiv](https://github.com/jyyang621/DailyArXiv)
+- **Issue:** [https://github.com/jyyang621/DailyArXiv/issues/342](https://github.com/jyyang621/DailyArXiv/issues/342)
+
+### [BUG]一次因为上传文件造成代码污染导致模型身份混淆的观察记录(An Observational Record of Model Identity Confusion Caused by Code Contamination from an Uploaded File)
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1248](https://github.com/deepseek-ai/DeepSeek-V3/issues/1248)
+
+### Latest 10 Papers - June 02, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/718](https://github.com/luohongk/Embodied-AI-Daily/issues/718)
+
+### Latest 20 Papers - June 02, 2026
+- **Repo:** [https://github.com/zachysun/DailyArXiv](https://github.com/zachysun/DailyArXiv)
+- **Issue:** [https://github.com/zachysun/DailyArXiv/issues/490](https://github.com/zachysun/DailyArXiv/issues/490)
+
+### LLM Daily Update - 2026-06-01 (15 items)
+- **Repo:** [https://github.com/changao1/updater-for-LLM-tech](https://github.com/changao1/updater-for-LLM-tech)
+- **Issue:** [https://github.com/changao1/updater-for-LLM-tech/issues/100](https://github.com/changao1/updater-for-LLM-tech/issues/100)
+
+### [backfill:2025-10-08..2025-10-14] Code Generation — 15 paper(s)
+- **Repo:** [https://github.com/EuniAI/awesome-code-agents](https://github.com/EuniAI/awesome-code-agents)
+- **Issue:** [https://github.com/EuniAI/awesome-code-agents/issues/54](https://github.com/EuniAI/awesome-code-agents/issues/54)
+
+### Research newer benchmarks
+- **Repo:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting)
+- **Issue:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/4](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/4)
+
+### Implement Symbolic Reasoning Benchmark from Paper (Letter Concat)
+- **Repo:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting)
+- **Issue:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/3](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/3)
+
+### Implement Symbolic Reasoning Benchmark from Paper (Coinflip)
+- **Repo:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting)
+- **Issue:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/2](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/2)
+
+### Implement Symbolic Reasoning Benchmark Custom (Your own idea)
+- **Repo:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting)
+- **Issue:** [https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/16](https://github.com/d0minic01/DL4NLP-Chain-of-Thought-Prompting/issues/16)
+
+### Latest 15 Papers - June 01, 2026
+- **Repo:** [https://github.com/somewordstoolate/DailyArXiv](https://github.com/somewordstoolate/DailyArXiv)
+- **Issue:** [https://github.com/somewordstoolate/DailyArXiv/issues/260](https://github.com/somewordstoolate/DailyArXiv/issues/260)
+
+### Latest 15 Papers - June 01, 2026
+- **Repo:** [https://github.com/pstAmbition/DailyArXiv_Multimodal](https://github.com/pstAmbition/DailyArXiv_Multimodal)
+- **Issue:** [https://github.com/pstAmbition/DailyArXiv_Multimodal/issues/369](https://github.com/pstAmbition/DailyArXiv_Multimodal/issues/369)
+
+### Latest 15 Papers - June 01, 2026
+- **Repo:** [https://github.com/yuque01/DailyArXiv](https://github.com/yuque01/DailyArXiv)
+- **Issue:** [https://github.com/yuque01/DailyArXiv/issues/221](https://github.com/yuque01/DailyArXiv/issues/221)
+
+### Latest 50 Papers - June 01, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/86](https://github.com/NeoFii/DailyArXiv/issues/86)
+
+### [Infra] Update ontology with lessons learned from TinyMind
+- **Repo:** [https://github.com/c-daly/logos](https://github.com/c-daly/logos)
+- **Issue:** [https://github.com/c-daly/logos/issues/458](https://github.com/c-daly/logos/issues/458)
+
+### [2026-05-30] Software Security Engineering — 5 paper(s)
+- **Repo:** [https://github.com/EuniAI/awesome-code-agents](https://github.com/EuniAI/awesome-code-agents)
+- **Issue:** [https://github.com/EuniAI/awesome-code-agents/issues/19](https://github.com/EuniAI/awesome-code-agents/issues/19)
+
+### Architectural Prior Art Notice: Lattice Computing Substrate vs. Generative Emulation
+- **Repo:** [https://github.com/metauto-ai/NeuralComputer](https://github.com/metauto-ai/NeuralComputer)
+- **Issue:** [https://github.com/metauto-ai/NeuralComputer/issues/6](https://github.com/metauto-ai/NeuralComputer/issues/6)
+
+### Latest 15 Papers - May 28, 2026
+- **Repo:** [https://github.com/quanyushi/DailyArxiv](https://github.com/quanyushi/DailyArxiv)
+- **Issue:** [https://github.com/quanyushi/DailyArxiv/issues/101](https://github.com/quanyushi/DailyArxiv/issues/101)
+
+### Latest 50 Papers - May 29, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/85](https://github.com/NeoFii/DailyArXiv/issues/85)
+
+### Latest 50 Papers - May 28, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/84](https://github.com/NeoFii/DailyArXiv/issues/84)
+
+### Latest 15 Papers - May 27, 2026
+- **Repo:** [https://github.com/quanyushi/DailyArxiv](https://github.com/quanyushi/DailyArxiv)
+- **Issue:** [https://github.com/quanyushi/DailyArxiv/issues/100](https://github.com/quanyushi/DailyArxiv/issues/100)
+
+### Latest 15 Papers - May 28, 2026
+- **Repo:** [https://github.com/zezhishao/DailyArXiv](https://github.com/zezhishao/DailyArXiv)
+- **Issue:** [https://github.com/zezhishao/DailyArXiv/issues/589](https://github.com/zezhishao/DailyArXiv/issues/589)
+
+### Latest 15 Papers - May 28, 2026
+- **Repo:** [https://github.com/tangwen-qian/DailyArXiv](https://github.com/tangwen-qian/DailyArXiv)
+- **Issue:** [https://github.com/tangwen-qian/DailyArXiv/issues/533](https://github.com/tangwen-qian/DailyArXiv/issues/533)
+
+### Latest 15 Papers - May 28, 2026
+- **Repo:** [https://github.com/FFFrosty/DailyArXiv](https://github.com/FFFrosty/DailyArXiv)
+- **Issue:** [https://github.com/FFFrosty/DailyArXiv/issues/217](https://github.com/FFFrosty/DailyArXiv/issues/217)
+
+### [2605.24619v1] Synthesizing Inductive Invariants for Distributed Protocols via IC3 and Large Language Models
+- **Repo:** [https://github.com/Mont9165/arxiv-issue-bot](https://github.com/Mont9165/arxiv-issue-bot)
+- **Issue:** [https://github.com/Mont9165/arxiv-issue-bot/issues/4770](https://github.com/Mont9165/arxiv-issue-bot/issues/4770)
+
+### Latest 15 Papers - May 27, 2026
+- **Repo:** [https://github.com/JeremyChou28/Daily-Arxiv-Tools](https://github.com/JeremyChou28/Daily-Arxiv-Tools)
+- **Issue:** [https://github.com/JeremyChou28/Daily-Arxiv-Tools/issues/365](https://github.com/JeremyChou28/Daily-Arxiv-Tools/issues/365)
+
+### Latest 10 Papers - May 06, 2025
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/130](https://github.com/luohongk/Embodied-AI-Daily/issues/130)
+
+### Latest 50 Papers - May 27, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/83](https://github.com/NeoFii/DailyArXiv/issues/83)
+
+### EPIC: Symbolic reasoning layer on top of AST + entity_facts
+- **Repo:** [https://github.com/marctjones/klareco](https://github.com/marctjones/klareco)
+- **Issue:** [https://github.com/marctjones/klareco/issues/747](https://github.com/marctjones/klareco/issues/747)
+
+### Capability gap analysis: general LLMs (OLMo) and reasoning models (Qwen3) vs Klareco
+- **Repo:** [https://github.com/marctjones/klareco](https://github.com/marctjones/klareco)
+- **Issue:** [https://github.com/marctjones/klareco/issues/757](https://github.com/marctjones/klareco/issues/757)
+
+### 范畴论 + Lambda演算 = 一种可微分的、有类型的函数式 → 可微分神经符号架构
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1296](https://github.com/deepseek-ai/DeepSeek-V3/issues/1296)
+
+### 我被 `离散自回归` 误导了, 现在发现 `连续空间` 里就能实现 `神经符号` .
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1342](https://github.com/deepseek-ai/DeepSeek-V3/issues/1342)
+
+### 我抽象出新的代理架构, 用于替代马鞍工程Harness Engineering.
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1210](https://github.com/deepseek-ai/DeepSeek-V3/issues/1210)
+
+### Latest 15 Papers - May 25, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/166](https://github.com/Greenteagodie/DailyArXiv/issues/166)
+
+### Epic: Meta-harness for role and task backend routing
+- **Repo:** [https://github.com/dcellison/kai](https://github.com/dcellison/kai)
+- **Issue:** [https://github.com/dcellison/kai/issues/519](https://github.com/dcellison/kai/issues/519)
+
+### Experiment: Find pretraining proxies for Artificial Analysis competencies
+- **Repo:** [https://github.com/marin-community/marin](https://github.com/marin-community/marin)
+- **Issue:** [https://github.com/marin-community/marin/issues/5819](https://github.com/marin-community/marin/issues/5819)
+
+### Latest 15 Papers - May 24, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/165](https://github.com/Greenteagodie/DailyArXiv/issues/165)
+
+### Latest 15 Papers - May 23, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/164](https://github.com/Greenteagodie/DailyArXiv/issues/164)
+
+### Latest 15 Papers - May 22, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/163](https://github.com/Greenteagodie/DailyArXiv/issues/163)
+
+### `自回归` 是 `硅基智能` 的 `启动器` 
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1319](https://github.com/deepseek-ai/DeepSeek-V3/issues/1319)
+
+### Latest 10 Papers - May 21, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/702](https://github.com/luohongk/Embodied-AI-Daily/issues/702)
+
+### Latest 15 Papers - May 21, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/162](https://github.com/Greenteagodie/DailyArXiv/issues/162)
+
+### Latest 10 Papers - May 21, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/701](https://github.com/luohongk/Embodied-AI-Daily/issues/701)
+
+### 打破串行神经网
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1232](https://github.com/deepseek-ai/DeepSeek-V3/issues/1232)
+
+### Latest 15 Papers - May 21, 2026
+- **Repo:** [https://github.com/tangwen-qian/DailyArXiv](https://github.com/tangwen-qian/DailyArXiv)
+- **Issue:** [https://github.com/tangwen-qian/DailyArXiv/issues/529](https://github.com/tangwen-qian/DailyArXiv/issues/529)
+
+### Latest 50 Papers - May 21, 2026
+- **Repo:** [https://github.com/xydong-web/DailyArXiv](https://github.com/xydong-web/DailyArXiv)
+- **Issue:** [https://github.com/xydong-web/DailyArXiv/issues/409](https://github.com/xydong-web/DailyArXiv/issues/409)
+
+### Latest 50 Papers - May 21, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/80](https://github.com/NeoFii/DailyArXiv/issues/80)
+
+### [2605.17965v1] BLAgent: Agentic RAG for File-Level Bug Localization
+- **Repo:** [https://github.com/Mont9165/arxiv-issue-bot](https://github.com/Mont9165/arxiv-issue-bot)
+- **Issue:** [https://github.com/Mont9165/arxiv-issue-bot/issues/4406](https://github.com/Mont9165/arxiv-issue-bot/issues/4406)
+
+### [evals] Build pretraining checkpoint confidence portfolio
+- **Repo:** [https://github.com/marin-community/marin](https://github.com/marin-community/marin)
+- **Issue:** [https://github.com/marin-community/marin/issues/5005](https://github.com/marin-community/marin/issues/5005)
+
+### Papers - May 19, 2026
+- **Repo:** [https://github.com/set-path/DailyArXiv](https://github.com/set-path/DailyArXiv)
+- **Issue:** [https://github.com/set-path/DailyArXiv/issues/274](https://github.com/set-path/DailyArXiv/issues/274)
+
+### Latest 15 Papers - May 18, 2026
+- **Repo:** [https://github.com/Ed1sonChen/DailyArxiv](https://github.com/Ed1sonChen/DailyArxiv)
+- **Issue:** [https://github.com/Ed1sonChen/DailyArxiv/issues/329](https://github.com/Ed1sonChen/DailyArxiv/issues/329)
+
+### Latest 15 Papers - May 17, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/161](https://github.com/Greenteagodie/DailyArXiv/issues/161)
+
+### Latest 10 Papers - May 17, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/695](https://github.com/luohongk/Embodied-AI-Daily/issues/695)
+
+### Latest 10 Papers - May 17, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/694](https://github.com/luohongk/Embodied-AI-Daily/issues/694)
+
+### Latest 15 Papers - May 16, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/160](https://github.com/Greenteagodie/DailyArXiv/issues/160)
+
+### Latest 10 Papers - May 16, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/693](https://github.com/luohongk/Embodied-AI-Daily/issues/693)
+
+### LLM Daily Update - 2026-05-15 (16 items)
+- **Repo:** [https://github.com/changao1/updater-for-LLM-tech](https://github.com/changao1/updater-for-LLM-tech)
+- **Issue:** [https://github.com/changao1/updater-for-LLM-tech/issues/88](https://github.com/changao1/updater-for-LLM-tech/issues/88)
+
+### Latest 15 Papers - May 15, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/159](https://github.com/Greenteagodie/DailyArXiv/issues/159)
+
+### Latest 10 Papers - May 15, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/692](https://github.com/luohongk/Embodied-AI-Daily/issues/692)
+
+### Latest 50 Papers - May 15, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/78](https://github.com/NeoFii/DailyArXiv/issues/78)
+
+### AI Thought Layer Audit Architecture (TLAA)V3.0;An idea
+- **Repo:** [https://github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **Issue:** [https://github.com/deepseek-ai/DeepSeek-V3/issues/1285](https://github.com/deepseek-ai/DeepSeek-V3/issues/1285)
+
+### [2605.11482v1] NeuroFlake: A Neuro-Symbolic LLM Framework for Flaky Test Classification
+- **Repo:** [https://github.com/Mont9165/arxiv-issue-bot](https://github.com/Mont9165/arxiv-issue-bot)
+- **Issue:** [https://github.com/Mont9165/arxiv-issue-bot/issues/4173](https://github.com/Mont9165/arxiv-issue-bot/issues/4173)
+
+### Separate Get3Steps into get3steps.com project
+- **Repo:** [https://github.com/xes-net/sipnosis](https://github.com/xes-net/sipnosis)
+- **Issue:** [https://github.com/xes-net/sipnosis/issues/26](https://github.com/xes-net/sipnosis/issues/26)
+
+### Latest 15 Papers - May 14, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/158](https://github.com/Greenteagodie/DailyArXiv/issues/158)
+
+### Latest 10 Papers - May 14, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/691](https://github.com/luohongk/Embodied-AI-Daily/issues/691)
+
+### Latest 50 Papers - May 14, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/77](https://github.com/NeoFii/DailyArXiv/issues/77)
+
+### arch: KB consistency validator (structural + modal layers, design-time + application-KB composition)
+- **Repo:** [https://github.com/chapmanbe/cwyde](https://github.com/chapmanbe/cwyde)
+- **Issue:** [https://github.com/chapmanbe/cwyde/issues/10](https://github.com/chapmanbe/cwyde/issues/10)
+
+### arch: expose symbolic-reasoning layer as a public, application-facing API
+- **Repo:** [https://github.com/chapmanbe/cwyde](https://github.com/chapmanbe/cwyde)
+- **Issue:** [https://github.com/chapmanbe/cwyde/issues/9](https://github.com/chapmanbe/cwyde/issues/9)
+
+### Latest 15 Papers - May 13, 2026
+- **Repo:** [https://github.com/Ponkux/DailyArXiv-cp](https://github.com/Ponkux/DailyArXiv-cp)
+- **Issue:** [https://github.com/Ponkux/DailyArXiv-cp/issues/458](https://github.com/Ponkux/DailyArXiv-cp/issues/458)
+
+### Latest 15 Papers - May 13, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/157](https://github.com/Greenteagodie/DailyArXiv/issues/157)
+
+### Latest 10 Papers - May 13, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/689](https://github.com/luohongk/Embodied-AI-Daily/issues/689)
+
+### Latest 15 Papers - May 12, 2026
+- **Repo:** [https://github.com/Luowaterbi/DailyArXiv](https://github.com/Luowaterbi/DailyArXiv)
+- **Issue:** [https://github.com/Luowaterbi/DailyArXiv/issues/421](https://github.com/Luowaterbi/DailyArXiv/issues/421)
+
+### Latest 10 Papers - May 12, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/688](https://github.com/luohongk/Embodied-AI-Daily/issues/688)
+
+### Latest 10 Papers - May 12, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/687](https://github.com/luohongk/Embodied-AI-Daily/issues/687)
+
+### Latest 10 Papers - May 12, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/686](https://github.com/luohongk/Embodied-AI-Daily/issues/686)
+
+### Latest 15 Papers - May 11, 2026
+- **Repo:** [https://github.com/Luowaterbi/DailyArXiv](https://github.com/Luowaterbi/DailyArXiv)
+- **Issue:** [https://github.com/Luowaterbi/DailyArXiv/issues/420](https://github.com/Luowaterbi/DailyArXiv/issues/420)
+
+### [2605.07737v1] Securing the Dark Matter: A Semantic-Enhanced Neuro-Symbolic Framework for Supply Chain Analysis of Opaque Industrial Software
+- **Repo:** [https://github.com/Mont9165/arxiv-issue-bot](https://github.com/Mont9165/arxiv-issue-bot)
+- **Issue:** [https://github.com/Mont9165/arxiv-issue-bot/issues/4037](https://github.com/Mont9165/arxiv-issue-bot/issues/4037)
+
+### Latest 10 Papers - May 11, 2026
+- **Repo:** [https://github.com/luohongk/Embodied-AI-Daily](https://github.com/luohongk/Embodied-AI-Daily)
+- **Issue:** [https://github.com/luohongk/Embodied-AI-Daily/issues/685](https://github.com/luohongk/Embodied-AI-Daily/issues/685)
+
+### Latest 15 Papers - May 11, 2026
+- **Repo:** [https://github.com/yanghlll/ArxivDaily-Haolin](https://github.com/yanghlll/ArxivDaily-Haolin)
+- **Issue:** [https://github.com/yanghlll/ArxivDaily-Haolin/issues/209](https://github.com/yanghlll/ArxivDaily-Haolin/issues/209)
+
+### Latest 15 Papers - May 11, 2026
+- **Repo:** [https://github.com/somewordstoolate/DailyArXiv](https://github.com/somewordstoolate/DailyArXiv)
+- **Issue:** [https://github.com/somewordstoolate/DailyArXiv/issues/250](https://github.com/somewordstoolate/DailyArXiv/issues/250)
+
+### Latest 15 Papers - May 11, 2026
+- **Repo:** [https://github.com/asdfo123/DailyArXiv](https://github.com/asdfo123/DailyArXiv)
+- **Issue:** [https://github.com/asdfo123/DailyArXiv/issues/299](https://github.com/asdfo123/DailyArXiv/issues/299)
+
+### Latest 15 Papers - May 11, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/156](https://github.com/Greenteagodie/DailyArXiv/issues/156)
+
+### Latest 50 Papers - May 11, 2026
+- **Repo:** [https://github.com/NeoFii/DailyArXiv](https://github.com/NeoFii/DailyArXiv)
+- **Issue:** [https://github.com/NeoFii/DailyArXiv/issues/76](https://github.com/NeoFii/DailyArXiv/issues/76)
+
+### Latest 20 Papers - May 11, 2026
+- **Repo:** [https://github.com/WangYijun-OUC/DailyArXiv](https://github.com/WangYijun-OUC/DailyArXiv)
+- **Issue:** [https://github.com/WangYijun-OUC/DailyArXiv/issues/484](https://github.com/WangYijun-OUC/DailyArXiv/issues/484)
+
+### Latest 20 Papers - May 10, 2026
+- **Repo:** [https://github.com/WangYijun-OUC/DailyArXiv](https://github.com/WangYijun-OUC/DailyArXiv)
+- **Issue:** [https://github.com/WangYijun-OUC/DailyArXiv/issues/483](https://github.com/WangYijun-OUC/DailyArXiv/issues/483)
+
+### Latest 15 Papers - May 10, 2026
+- **Repo:** [https://github.com/asdfo123/DailyArXiv](https://github.com/asdfo123/DailyArXiv)
+- **Issue:** [https://github.com/asdfo123/DailyArXiv/issues/298](https://github.com/asdfo123/DailyArXiv/issues/298)
+
+### Latest 15 Papers - May 10, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/155](https://github.com/Greenteagodie/DailyArXiv/issues/155)
+
+### Latest 15 Papers - May 09, 2026
+- **Repo:** [https://github.com/Luowaterbi/DailyArXiv](https://github.com/Luowaterbi/DailyArXiv)
+- **Issue:** [https://github.com/Luowaterbi/DailyArXiv/issues/419](https://github.com/Luowaterbi/DailyArXiv/issues/419)
+
+### Latest 20 Papers - May 09, 2026
+- **Repo:** [https://github.com/WangYijun-OUC/DailyArXiv](https://github.com/WangYijun-OUC/DailyArXiv)
+- **Issue:** [https://github.com/WangYijun-OUC/DailyArXiv/issues/482](https://github.com/WangYijun-OUC/DailyArXiv/issues/482)
+
+### Latest 15 Papers - May 09, 2026
+- **Repo:** [https://github.com/Greenteagodie/DailyArXiv](https://github.com/Greenteagodie/DailyArXiv)
+- **Issue:** [https://github.com/Greenteagodie/DailyArXiv/issues/154](https://github.com/Greenteagodie/DailyArXiv/issues/154)
+
+### 20260508-Arxiv.md
+- **Repo:** [https://github.com/RidiculousBuffal/ArxivArchive](https://github.com/RidiculousBuffal/ArxivArchive)
+- **Issue:** [https://github.com/RidiculousBuffal/ArxivArchive/issues/89](https://github.com/RidiculousBuffal/ArxivArchive/issues/89)
+
+### [2605.03492v1] From TinyGo to gc Compiler: Extending Zorya's Concolic Framework to Real-World Go Binaries
+- **Repo:** [https://github.com/Mont9165/arxiv-issue-bot](https://github.com/Mont9165/arxiv-issue-bot)
+- **Issue:** [https://github.com/Mont9165/arxiv-issue-bot/issues/3884](https://github.com/Mont9165/arxiv-issue-bot/issues/3884)
+
+
+## Query 6: Data Structures - Trees/Heaps/Linked Lists (`good first issue`)
+
+### [DOCS] Sync the README repository map with actual directories like `wordlists/` and generated output paths
+- **Repo:** [https://github.com/utksh1/SecuScan](https://github.com/utksh1/SecuScan)
+- **Issue:** [https://github.com/utksh1/SecuScan/issues/587](https://github.com/utksh1/SecuScan/issues/587)
+
+### [Feature] Simplify `tree_speculative_sampling_target_only`
+- **Repo:** [https://github.com/sgl-project/sglang](https://github.com/sgl-project/sglang)
+- **Issue:** [https://github.com/sgl-project/sglang/issues/12562](https://github.com/sgl-project/sglang/issues/12562)
+
+### Refactor project structure into modules to avoid merge conflicts
+- **Repo:** [https://github.com/JohannesL2/pytree-stats](https://github.com/JohannesL2/pytree-stats)
+- **Issue:** [https://github.com/JohannesL2/pytree-stats/issues/15](https://github.com/JohannesL2/pytree-stats/issues/15)
+
+### [ONBOARD: 2 RTC] Star + Review an Open PR
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2782](https://github.com/Scottcjn/rustchain-bounties/issues/2782)
+
+### [ONBOARD: 1 RTC] Star + File Your First Bug Report
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2781](https://github.com/Scottcjn/rustchain-bounties/issues/2781)
+
+### Model3D pointcloud data format support  (not display mode)
+- **Repo:** [https://github.com/gradio-app/gradio](https://github.com/gradio-app/gradio)
+- **Issue:** [https://github.com/gradio-app/gradio/issues/8826](https://github.com/gradio-app/gradio/issues/8826)
+
+### Comparison of Different Fine-Tuning Techniques for Conversational AI
+- **Repo:** [https://github.com/huggingface/peft](https://github.com/huggingface/peft)
+- **Issue:** [https://github.com/huggingface/peft/issues/2310](https://github.com/huggingface/peft/issues/2310)
+
+### feat(adapter/aider): Aider skill runtime
+- **Repo:** [https://github.com/apache/airflow-steward](https://github.com/apache/airflow-steward)
+- **Issue:** [https://github.com/apache/airflow-steward/issues/317](https://github.com/apache/airflow-steward/issues/317)
+
+### Label the TLS in vmmap
+- **Repo:** [https://github.com/pwndbg/pwndbg](https://github.com/pwndbg/pwndbg)
+- **Issue:** [https://github.com/pwndbg/pwndbg/issues/1570](https://github.com/pwndbg/pwndbg/issues/1570)
+
+### Doctype name is missing in the breadcrumbs on the tree view.
+- **Repo:** [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
+- **Issue:** [https://github.com/frappe/frappe/issues/37798](https://github.com/frappe/frappe/issues/37798)
+
+### [Feature Request]: Enforce the strict type checks
+- **Repo:** [https://github.com/oppia/oppia](https://github.com/oppia/oppia)
+- **Issue:** [https://github.com/oppia/oppia/issues/23496](https://github.com/oppia/oppia/issues/23496)
+
+### Expand file type icon mappings (More extensions!)
+- **Repo:** [https://github.com/JohannesL2/pytree-stats](https://github.com/JohannesL2/pytree-stats)
+- **Issue:** [https://github.com/JohannesL2/pytree-stats/issues/7](https://github.com/JohannesL2/pytree-stats/issues/7)
+
+### CI: Fatal Python error: Aborted
+- **Repo:** [https://github.com/open-telemetry/opentelemetry-python-contrib](https://github.com/open-telemetry/opentelemetry-python-contrib)
+- **Issue:** [https://github.com/open-telemetry/opentelemetry-python-contrib/issues/1736](https://github.com/open-telemetry/opentelemetry-python-contrib/issues/1736)
+
+### Test suite is not type-clean: 13 latent mypy errors in tests/ (CI only checks src/)
+- **Repo:** [https://github.com/j7an/dep-rank](https://github.com/j7an/dep-rank)
+- **Issue:** [https://github.com/j7an/dep-rank/issues/121](https://github.com/j7an/dep-rank/issues/121)
+
+### Support non-Llama architectures in knowledge-edit kernels (GPT-2 transformer.h)
+- **Repo:** [https://github.com/MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup)
+- **Issue:** [https://github.com/MakazhanAlpamys/Soup/issues/251](https://github.com/MakazhanAlpamys/Soup/issues/251)
+
+### Add docs website deployment workflow
+- **Repo:** [https://github.com/Tom409114/research-repo-doctor](https://github.com/Tom409114/research-repo-doctor)
+- **Issue:** [https://github.com/Tom409114/research-repo-doctor/issues/10](https://github.com/Tom409114/research-repo-doctor/issues/10)
+
+### chore: complete Python package consolidation — stub remaining legacy + integration packages
+- **Repo:** [https://github.com/microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
+- **Issue:** [https://github.com/microsoft/agent-governance-toolkit/issues/2740](https://github.com/microsoft/agent-governance-toolkit/issues/2740)
+
+### Feature: Handle PermissionError during directory traversal
+- **Repo:** [https://github.com/JohannesL2/pytree-stats](https://github.com/JohannesL2/pytree-stats)
+- **Issue:** [https://github.com/JohannesL2/pytree-stats/issues/2](https://github.com/JohannesL2/pytree-stats/issues/2)
+
+### Extract hardcoded year range to a shared constant
+- **Repo:** [https://github.com/xzshinena/fossil](https://github.com/xzshinena/fossil)
+- **Issue:** [https://github.com/xzshinena/fossil/issues/10](https://github.com/xzshinena/fossil/issues/10)
+
+### 📰 Help Wanted: Create Wikipedia Page for Vocalinux
+- **Repo:** [https://github.com/jatinkrmalik/vocalinux](https://github.com/jatinkrmalik/vocalinux)
+- **Issue:** [https://github.com/jatinkrmalik/vocalinux/issues/233](https://github.com/jatinkrmalik/vocalinux/issues/233)
+
+### [UTILS] Improve b2view TUI
+- **Repo:** [https://github.com/Blosc/python-blosc2](https://github.com/Blosc/python-blosc2)
+- **Issue:** [https://github.com/Blosc/python-blosc2/issues/653](https://github.com/Blosc/python-blosc2/issues/653)
+
+### README: source install doesn't explain how to run ownscribe globally
+- **Repo:** [https://github.com/paberr/ownscribe](https://github.com/paberr/ownscribe)
+- **Issue:** [https://github.com/paberr/ownscribe/issues/26](https://github.com/paberr/ownscribe/issues/26)
+
+### Add examples for scaling a robot.
+- **Repo:** [https://github.com/compas-dev/compas_fab](https://github.com/compas-dev/compas_fab)
+- **Issue:** [https://github.com/compas-dev/compas_fab/issues/166](https://github.com/compas-dev/compas_fab/issues/166)
+
+### [BOUNTY: 1 RTC] Answer Questions in GitHub Discussions (Up to 10 RTC)
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/728](https://github.com/Scottcjn/rustchain-bounties/issues/728)
+
+### [MEME BOUNTY: 1-3 RTC each] Retro Computing Meme Contest — Best Memes Win RTC
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2070](https://github.com/Scottcjn/rustchain-bounties/issues/2070)
+
+### Rehydrate conversation pane with event history for resumed conversation
+- **Repo:** [https://github.com/OpenHands/OpenHands-CLI](https://github.com/OpenHands/OpenHands-CLI)
+- **Issue:** [https://github.com/OpenHands/OpenHands-CLI/issues/204](https://github.com/OpenHands/OpenHands-CLI/issues/204)
+
+### Run MetaDrive simulation test in GitHub Actions
+- **Repo:** [https://github.com/commaai/openpilot](https://github.com/commaai/openpilot)
+- **Issue:** [https://github.com/commaai/openpilot/issues/30693](https://github.com/commaai/openpilot/issues/30693)
+
+### fix(file): avoid raw spreadsheet reads
+- **Repo:** [https://github.com/Alajmah/QwenPaw](https://github.com/Alajmah/QwenPaw)
+- **Issue:** [https://github.com/Alajmah/QwenPaw/issues/1](https://github.com/Alajmah/QwenPaw/issues/1)
+
+### [BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/2791](https://github.com/Scottcjn/rustchain-bounties/issues/2791)
+
+### chore(scripts): remove redundant shellcheck disable directives
+- **Repo:** [https://github.com/microsoft/physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain)
+- **Issue:** [https://github.com/microsoft/physical-ai-toolchain/issues/138](https://github.com/microsoft/physical-ai-toolchain/issues/138)
+
+### Add a Jest unit test at `frontend/src/utils/formHasAttachment.test.ts`
+- **Repo:** [https://github.com/HHS/simpler-grants-gov](https://github.com/HHS/simpler-grants-gov)
+- **Issue:** [https://github.com/HHS/simpler-grants-gov/issues/9795](https://github.com/HHS/simpler-grants-gov/issues/9795)
+
+### Add support for Anthropic
+- **Repo:** [https://github.com/arm/metis](https://github.com/arm/metis)
+- **Issue:** [https://github.com/arm/metis/issues/207](https://github.com/arm/metis/issues/207)
+
+### [Multiple Tasks] FEAT add DecodingTrust dataset
+- **Repo:** [https://github.com/microsoft/PyRIT](https://github.com/microsoft/PyRIT)
+- **Issue:** [https://github.com/microsoft/PyRIT/issues/291](https://github.com/microsoft/PyRIT/issues/291)
+
+### DOC: Add "Examples" to docstrings
+- **Repo:** [https://github.com/scipy/scipy](https://github.com/scipy/scipy)
+- **Issue:** [https://github.com/scipy/scipy/issues/7168](https://github.com/scipy/scipy/issues/7168)
+
+### Showcase gallery: real cc-tree runs in `docs/gallery.md`
+- **Repo:** [https://github.com/skymanbp/cc-tree](https://github.com/skymanbp/cc-tree)
+- **Issue:** [https://github.com/skymanbp/cc-tree/issues/4](https://github.com/skymanbp/cc-tree/issues/4)
+
+### New preset: `research` / literature-review
+- **Repo:** [https://github.com/skymanbp/cc-tree](https://github.com/skymanbp/cc-tree)
+- **Issue:** [https://github.com/skymanbp/cc-tree/issues/1](https://github.com/skymanbp/cc-tree/issues/1)
+
+### docs(i18n): translate documentation to Brazilian Portuguese
+- **Repo:** [https://github.com/niltonfrederico/django-shelf](https://github.com/niltonfrederico/django-shelf)
+- **Issue:** [https://github.com/niltonfrederico/django-shelf/issues/13](https://github.com/niltonfrederico/django-shelf/issues/13)
+
+### Add permutation feature importance
+- **Repo:** [https://github.com/rohithraju-ops/mcp-ml-lab](https://github.com/rohithraju-ops/mcp-ml-lab)
+- **Issue:** [https://github.com/rohithraju-ops/mcp-ml-lab/issues/4](https://github.com/rohithraju-ops/mcp-ml-lab/issues/4)
+
+### [feat] New skill: language-elixir
+- **Repo:** [https://github.com/lugassawan/swe-workbench](https://github.com/lugassawan/swe-workbench)
+- **Issue:** [https://github.com/lugassawan/swe-workbench/issues/352](https://github.com/lugassawan/swe-workbench/issues/352)
+
+### [feat] New skill: language-dart
+- **Repo:** [https://github.com/lugassawan/swe-workbench](https://github.com/lugassawan/swe-workbench)
+- **Issue:** [https://github.com/lugassawan/swe-workbench/issues/351](https://github.com/lugassawan/swe-workbench/issues/351)
+
+### Write a pack-author guide
+- **Repo:** [https://github.com/vecna-labs/open-range](https://github.com/vecna-labs/open-range)
+- **Issue:** [https://github.com/vecna-labs/open-range/issues/197](https://github.com/vecna-labs/open-range/issues/197)
+
+### 🧪 Improve Test Coverage
+- **Repo:** [https://github.com/tue-bmd/zea](https://github.com/tue-bmd/zea)
+- **Issue:** [https://github.com/tue-bmd/zea/issues/42](https://github.com/tue-bmd/zea/issues/42)
+
+### Add verification with Litex to the CI
+- **Repo:** [https://github.com/kuznia-rdzeni/coreblocks](https://github.com/kuznia-rdzeni/coreblocks)
+- **Issue:** [https://github.com/kuznia-rdzeni/coreblocks/issues/860](https://github.com/kuznia-rdzeni/coreblocks/issues/860)
+
+### [BOUNTY] Silicon Archaeology: Hardware Scanner Module (10 RTC)
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/269](https://github.com/Scottcjn/rustchain-bounties/issues/269)
+
+### Implement heapq (potentially)
+- **Repo:** [https://github.com/OutSquareCapital/pyochain](https://github.com/OutSquareCapital/pyochain)
+- **Issue:** [https://github.com/OutSquareCapital/pyochain/issues/10](https://github.com/OutSquareCapital/pyochain/issues/10)
+
+### 🚨FAQs | 常见问题🚨
+- **Repo:** [https://github.com/kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers)
+- **Issue:** [https://github.com/kvcache-ai/ktransformers/issues/1608](https://github.com/kvcache-ai/ktransformers/issues/1608)
+
+### BUG: Duplicate folders created when cloning repos with single subfolder
+- **Repo:** [https://github.com/abaddon-moriarty/Evaluation-HTR](https://github.com/abaddon-moriarty/Evaluation-HTR)
+- **Issue:** [https://github.com/abaddon-moriarty/Evaluation-HTR/issues/1](https://github.com/abaddon-moriarty/Evaluation-HTR/issues/1)
+
+### Add Astromer trained on ZTF data
+- **Repo:** [https://github.com/light-curve/light-curve-python](https://github.com/light-curve/light-curve-python)
+- **Issue:** [https://github.com/light-curve/light-curve-python/issues/729](https://github.com/light-curve/light-curve-python/issues/729)
+
+### Add Vue (.vue) file support to ast_chunker
+- **Repo:** [https://github.com/shahanxd/cassetto](https://github.com/shahanxd/cassetto)
+- **Issue:** [https://github.com/shahanxd/cassetto/issues/3](https://github.com/shahanxd/cassetto/issues/3)
+
+### [BOUNTY: 10-15 RTC] RustChain Testnet Faucet — Free Test RTC for Developers
+- **Repo:** [https://github.com/Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties)
+- **Issue:** [https://github.com/Scottcjn/rustchain-bounties/issues/751](https://github.com/Scottcjn/rustchain-bounties/issues/751)
+
+### Update what goes into our `sdist` package
+- **Repo:** [https://github.com/render-engine/render-engine](https://github.com/render-engine/render-engine)
+- **Issue:** [https://github.com/render-engine/render-engine/issues/1180](https://github.com/render-engine/render-engine/issues/1180)
+
+### [TRACKER]: Upload converted datasets to Hugging Face
+- **Repo:** [https://github.com/UniverseTBD/mmu-hdf-to-hats](https://github.com/UniverseTBD/mmu-hdf-to-hats)
+- **Issue:** [https://github.com/UniverseTBD/mmu-hdf-to-hats/issues/59](https://github.com/UniverseTBD/mmu-hdf-to-hats/issues/59)
+
+### feat(adapter/goose): Block's Goose agentic CLI skill runtime
+- **Repo:** [https://github.com/apache/airflow-steward](https://github.com/apache/airflow-steward)
+- **Issue:** [https://github.com/apache/airflow-steward/issues/319](https://github.com/apache/airflow-steward/issues/319)
+
+### Implement more pathfinding algorithms
+- **Repo:** [https://github.com/brean/python-pathfinding](https://github.com/brean/python-pathfinding)
+- **Issue:** [https://github.com/brean/python-pathfinding/issues/3](https://github.com/brean/python-pathfinding/issues/3)
+
+### [Feature] Implement the fault tolerance logic of DeepSeek-V4 infra within AReaL's inference service
+- **Repo:** [https://github.com/areal-project/AReaL](https://github.com/areal-project/AReaL)
+- **Issue:** [https://github.com/areal-project/AReaL/issues/1279](https://github.com/areal-project/AReaL/issues/1279)
+
+### Static fragility proxy (git-free hotspot stand-in)
+- **Repo:** [https://github.com/hslee16/Archy](https://github.com/hslee16/Archy)
+- **Issue:** [https://github.com/hslee16/Archy/issues/134](https://github.com/hslee16/Archy/issues/134)
+
+### feat(electron): add a 'Copy invite link' button on the Users credentials card
+- **Repo:** [https://github.com/shubhamkatta/plynth](https://github.com/shubhamkatta/plynth)
+- **Issue:** [https://github.com/shubhamkatta/plynth/issues/18](https://github.com/shubhamkatta/plynth/issues/18)
+
+### Improve Testing Coverage
+- **Repo:** [https://github.com/ShellLite/ShellLite](https://github.com/ShellLite/ShellLite)
+- **Issue:** [https://github.com/ShellLite/ShellLite/issues/30](https://github.com/ShellLite/ShellLite/issues/30)
+
+### Improve test coverage in Parser (`shell_lite/parser.py`)
+- **Repo:** [https://github.com/ShellLite/ShellLite](https://github.com/ShellLite/ShellLite)
+- **Issue:** [https://github.com/ShellLite/ShellLite/issues/32](https://github.com/ShellLite/ShellLite/issues/32)
+
+### [Provider]: Add an in-repo embed adapter for Voyage AI
+- **Repo:** [https://github.com/AbdelStark/worldforge](https://github.com/AbdelStark/worldforge)
+- **Issue:** [https://github.com/AbdelStark/worldforge/issues/312](https://github.com/AbdelStark/worldforge/issues/312)
+
+### Document lineage.json schema and how to add a language
+- **Repo:** [https://github.com/xzshinena/fossil](https://github.com/xzshinena/fossil)
+- **Issue:** [https://github.com/xzshinena/fossil/issues/12](https://github.com/xzshinena/fossil/issues/12)
+
+### Add loading state to the tree while fetching data
+- **Repo:** [https://github.com/xzshinena/fossil](https://github.com/xzshinena/fossil)
+- **Issue:** [https://github.com/xzshinena/fossil/issues/5](https://github.com/xzshinena/fossil/issues/5)
+
+### Show score breakdown tooltip on node hover
+- **Repo:** [https://github.com/xzshinena/fossil](https://github.com/xzshinena/fossil)
+- **Issue:** [https://github.com/xzshinena/fossil/issues/6](https://github.com/xzshinena/fossil/issues/6)
+
+### Make partial data indicator visible to users
+- **Repo:** [https://github.com/xzshinena/fossil](https://github.com/xzshinena/fossil)
+- **Issue:** [https://github.com/xzshinena/fossil/issues/7](https://github.com/xzshinena/fossil/issues/7)
+
+### [Enhancement] Add Criterion Rust Benchmarks for Performance Tracking
+- **Repo:** [https://github.com/cdliai/durak](https://github.com/cdliai/durak)
+- **Issue:** [https://github.com/cdliai/durak/issues/113](https://github.com/cdliai/durak/issues/113)
+
+### Translations needed for comparison functionality messages
+- **Repo:** [https://github.com/OWASP/Nettacker](https://github.com/OWASP/Nettacker)
+- **Issue:** [https://github.com/OWASP/Nettacker/issues/905](https://github.com/OWASP/Nettacker/issues/905)
+
+### Add --include-cwd PATTERN glob filter to limit removal to matching projects
+- **Repo:** [https://github.com/bisovka-labs/claude-recents-cleaner](https://github.com/bisovka-labs/claude-recents-cleaner)
+- **Issue:** [https://github.com/bisovka-labs/claude-recents-cleaner/issues/2](https://github.com/bisovka-labs/claude-recents-cleaner/issues/2)
+
+### feat: provision the cybersquad with runtime CrewAI agent skills under .claude/skills
+- **Repo:** [https://github.com/coolhandle01/cybersquad](https://github.com/coolhandle01/cybersquad)
+- **Issue:** [https://github.com/coolhandle01/cybersquad/issues/62](https://github.com/coolhandle01/cybersquad/issues/62)
+
+### [FEATURE]: Consolidate the *_helper.py modules in structured_object_evaluator/models/
+- **Repo:** [https://github.com/awslabs/stickler](https://github.com/awslabs/stickler)
+- **Issue:** [https://github.com/awslabs/stickler/issues/134](https://github.com/awslabs/stickler/issues/134)
+
+### [Feat]: Standardise two-tier test layout and document skill-local vs integration test convention
+- **Repo:** [https://github.com/ARPAHLS/skillware](https://github.com/ARPAHLS/skillware)
+- **Issue:** [https://github.com/ARPAHLS/skillware/issues/86](https://github.com/ARPAHLS/skillware/issues/86)
+
+### [Chunk] OpenOnco algo-branch-wiring-esoph-metastatic-1l
+- **Repo:** [https://github.com/romeo111/task_torrent](https://github.com/romeo111/task_torrent)
+- **Issue:** [https://github.com/romeo111/task_torrent/issues/40](https://github.com/romeo111/task_torrent/issues/40)
+
+### [Chunk] OpenOnco algo-branch-wiring-breast-1l
+- **Repo:** [https://github.com/romeo111/task_torrent](https://github.com/romeo111/task_torrent)
+- **Issue:** [https://github.com/romeo111/task_torrent/issues/39](https://github.com/romeo111/task_torrent/issues/39)
+
+### [Chunk] OpenOnco algo-branch-wiring-ovarian-2l
+- **Repo:** [https://github.com/romeo111/task_torrent](https://github.com/romeo111/task_torrent)
+- **Issue:** [https://github.com/romeo111/task_torrent/issues/38](https://github.com/romeo111/task_torrent/issues/38)
+
+### External reproduction #2: Ubuntu/Linux + Python 3.11
+- **Repo:** [https://github.com/weich97/TradeArena](https://github.com/weich97/TradeArena)
+- **Issue:** [https://github.com/weich97/TradeArena/issues/44](https://github.com/weich97/TradeArena/issues/44)
+
+### External reproduction #1: macOS + Python 3.10
+- **Repo:** [https://github.com/weich97/TradeArena](https://github.com/weich97/TradeArena)
+- **Issue:** [https://github.com/weich97/TradeArena/issues/43](https://github.com/weich97/TradeArena/issues/43)
+
+### cytoland example imports upstream microssim — migrate to cubic.metrics
+- **Repo:** [https://github.com/mehta-lab/VisCy](https://github.com/mehta-lab/VisCy)
+- **Issue:** [https://github.com/mehta-lab/VisCy/issues/431](https://github.com/mehta-lab/VisCy/issues/431)
+
+### Benchmark ORC reader
+- **Repo:** [https://github.com/dask/dask](https://github.com/dask/dask)
+- **Issue:** [https://github.com/dask/dask/issues/3734](https://github.com/dask/dask/issues/3734)
+
+### Add more tree-sitter language grammars (Go, Rust, Java, Ruby)
+- **Repo:** [https://github.com/BuffaloTechRider/Autodidact](https://github.com/BuffaloTechRider/Autodidact)
+- **Issue:** [https://github.com/BuffaloTechRider/Autodidact/issues/52](https://github.com/BuffaloTechRider/Autodidact/issues/52)
+
+### Markdown-aware chunking: respect tables, fences, and headings
+- **Repo:** [https://github.com/BuffaloTechRider/Autodidact](https://github.com/BuffaloTechRider/Autodidact)
+- **Issue:** [https://github.com/BuffaloTechRider/Autodidact/issues/40](https://github.com/BuffaloTechRider/Autodidact/issues/40)
+
+### Night Market pages
+- **Repo:** [https://github.com/emfcamp/Website](https://github.com/emfcamp/Website)
+- **Issue:** [https://github.com/emfcamp/Website/issues/1956](https://github.com/emfcamp/Website/issues/1956)
+
+### Seeking external SUT / corpus review for VATE v0.3.x
+- **Repo:** [https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope)
+- **Issue:** [https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/issues/2](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/issues/2)
+
+### test(tui): add textual.pilot harness and drop the remaining tools/tui/__init__.py coverage omit
+- **Repo:** [https://github.com/coolhandle01/cybersquad](https://github.com/coolhandle01/cybersquad)
+- **Issue:** [https://github.com/coolhandle01/cybersquad/issues/131](https://github.com/coolhandle01/cybersquad/issues/131)
+
+### 🚀 Feature: Install less packages
+- **Repo:** [https://github.com/traceloop/openllmetry](https://github.com/traceloop/openllmetry)
+- **Issue:** [https://github.com/traceloop/openllmetry/issues/2803](https://github.com/traceloop/openllmetry/issues/2803)
+
+### [➕ Feature]: allow "bypassing" fingerprints (e.g. grafana, prometheus) without sha256 to allow alignment between tools
+- **Repo:** [https://github.com/keephq/keep](https://github.com/keephq/keep)
+- **Issue:** [https://github.com/keephq/keep/issues/2312](https://github.com/keephq/keep/issues/2312)
+
+### [P3] Ship a second reference skill bundle alongside shipwright (e.g. echo-skill)
+- **Repo:** [https://github.com/KrakenNet/harbor](https://github.com/KrakenNet/harbor)
+- **Issue:** [https://github.com/KrakenNet/harbor/issues/47](https://github.com/KrakenNet/harbor/issues/47)
+
+### feat(cli): add --output yaml flag (alternative to --json)
+- **Repo:** [https://github.com/klein-business/legal-text-mcp-de](https://github.com/klein-business/legal-text-mcp-de)
+- **Issue:** [https://github.com/klein-business/legal-text-mcp-de/issues/92](https://github.com/klein-business/legal-text-mcp-de/issues/92)
+
+### [P3] DELETE /projects/{pid} endpoint for test cleanup
+- **Repo:** [https://github.com/Vkadel/conference-assistant](https://github.com/Vkadel/conference-assistant)
+- **Issue:** [https://github.com/Vkadel/conference-assistant/issues/28](https://github.com/Vkadel/conference-assistant/issues/28)
+
+### feat: interactive shell mode (--interactive / -i)
+- **Repo:** [https://github.com/alexeev-prog/nadzoring](https://github.com/alexeev-prog/nadzoring)
+- **Issue:** [https://github.com/alexeev-prog/nadzoring/issues/109](https://github.com/alexeev-prog/nadzoring/issues/109)
+
+### Finish dashboard (User page)
+- **Repo:** [https://github.com/LesFruitsDefendus/saskatoon-ng](https://github.com/LesFruitsDefendus/saskatoon-ng)
+- **Issue:** [https://github.com/LesFruitsDefendus/saskatoon-ng/issues/22](https://github.com/LesFruitsDefendus/saskatoon-ng/issues/22)
+
+### How to add customized model statistics in the table?
+- **Repo:** [https://github.com/py-econometrics/pyfixest](https://github.com/py-econometrics/pyfixest)
+- **Issue:** [https://github.com/py-econometrics/pyfixest/issues/961](https://github.com/py-econometrics/pyfixest/issues/961)
+
+### Propose a skill you use that is missing from the registry
+- **Repo:** [https://github.com/mbtiongson1/gaia-skill-tree](https://github.com/mbtiongson1/gaia-skill-tree)
+- **Issue:** [https://github.com/mbtiongson1/gaia-skill-tree/issues/66](https://github.com/mbtiongson1/gaia-skill-tree/issues/66)
+
+### Add type hints and/or reST docstrings
+- **Repo:** [https://github.com/conda/conda](https://github.com/conda/conda)
+- **Issue:** [https://github.com/conda/conda/issues/13437](https://github.com/conda/conda/issues/13437)
+
+### [tutorial] New tutorial — designing synthetic null controls
+- **Repo:** [https://github.com/dada8899/structural-isomorphism](https://github.com/dada8899/structural-isomorphism)
+- **Issue:** [https://github.com/dada8899/structural-isomorphism/issues/152](https://github.com/dada8899/structural-isomorphism/issues/152)
+
+### Give Registry a unicode tree output
+- **Repo:** [https://github.com/python-jsonschema/referencing](https://github.com/python-jsonschema/referencing)
+- **Issue:** [https://github.com/python-jsonschema/referencing/issues/17](https://github.com/python-jsonschema/referencing/issues/17)
+
+### Add git domain seeder
+- **Repo:** [https://github.com/anormang1992/vre](https://github.com/anormang1992/vre)
+- **Issue:** [https://github.com/anormang1992/vre/issues/64](https://github.com/anormang1992/vre/issues/64)
+
+### Lineage tracking infrastructure (parent_id + ancestry) — Phase 6 prerequisite
+- **Repo:** [https://github.com/billymahmood/universesimulator](https://github.com/billymahmood/universesimulator)
+- **Issue:** [https://github.com/billymahmood/universesimulator/issues/23](https://github.com/billymahmood/universesimulator/issues/23)
+
+### Add Python timedelta or equivalent functionality to template functions
+- **Repo:** [https://github.com/zim-desktop-wiki/zim-desktop-wiki](https://github.com/zim-desktop-wiki/zim-desktop-wiki)
+- **Issue:** [https://github.com/zim-desktop-wiki/zim-desktop-wiki/issues/1286](https://github.com/zim-desktop-wiki/zim-desktop-wiki/issues/1286)
+
+### Improve error message when PyTorch is not installed
+- **Repo:** [https://github.com/cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)
+- **Issue:** [https://github.com/cgrtml/neural-trees/issues/19](https://github.com/cgrtml/neural-trees/issues/19)
+
+### Validate depth parameter in SoftDecisionTree.__init__
+- **Repo:** [https://github.com/cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)
+- **Issue:** [https://github.com/cgrtml/neural-trees/issues/16](https://github.com/cgrtml/neural-trees/issues/16)
+
+### Add a 'Limitations' section to README
+- **Repo:** [https://github.com/cgrtml/neural-trees](https://github.com/cgrtml/neural-trees)
+- **Issue:** [https://github.com/cgrtml/neural-trees/issues/14](https://github.com/cgrtml/neural-trees/issues/14)
