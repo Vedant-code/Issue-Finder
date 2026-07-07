@@ -1,4 +1,5 @@
 import os
+import json
 import requests
 import time
 from datetime import datetime
@@ -45,23 +46,30 @@ def crawl_github_algorithm_issues():
     if GITHUB_TOKEN:
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
 
-    queries = [
-        'is:issue is:open no:assignee label:"good first issue" "graph" OR "knowledge graph" language:python',
-        'is:issue is:open no:assignee label:"good first issue" "time complexity" OR "O(n)" OR "O(n^2)" language:python',
-        'is:issue is:open no:assignee label:"good first issue" "dynamic programming" OR "greedy" OR "recursion" language:python',
-        'is:issue is:open no:assignee label:"good first issue" label:algorithm language:python',
-        'is:issue is:open no:assignee "neuro-symbolic" OR "symbolic reasoning" language:python',
-        'is:issue is:open no:assignee label:"good first issue" "tree" OR "heap" OR "linked list" language:python',
-    ]
-
-    query_labels = [
-        'Graph-based / Knowledge Graphs (`good first issue`)',
-        'Time Complexity & Big-O (`good first issue`)',
-        'Problem Solving - DP/Greedy/Recursion (`good first issue`)',
-        'General Algorithms (`good first issue` + `algorithm` label)',
-        'Neuro-Symbolic AI (rare, might not have good first issue label)',
-        'Data Structures - Trees/Heaps/Linked Lists (`good first issue`)',
-    ]
+    queries_path = os.path.join(os.path.dirname(__file__), "queries.json")
+    if os.path.exists(queries_path):
+        with open(queries_path, encoding="utf-8") as f:
+            query_config = json.load(f)
+        queries = [q["query"] for q in query_config]
+        query_labels = [q["label"] for q in query_config]
+    else:
+        # Fallback hardcoded queries (backward compatibility)
+        queries = [
+            'is:issue is:open no:assignee label:"good first issue" "graph" OR "knowledge graph" language:python',
+            'is:issue is:open no:assignee label:"good first issue" "time complexity" OR "O(n)" OR "O(n^2)" language:python',
+            'is:issue is:open no:assignee label:"good first issue" "dynamic programming" OR "greedy" OR "recursion" language:python',
+            'is:issue is:open no:assignee label:"good first issue" label:algorithm language:python',
+            'is:issue is:open no:assignee "neuro-symbolic" OR "symbolic reasoning" language:python',
+            'is:issue is:open no:assignee label:"good first issue" "tree" OR "heap" OR "linked list" language:python',
+        ]
+        query_labels = [
+            'Graph-based / Knowledge Graphs (`good first issue`)',
+            'Time Complexity & Big-O (`good first issue`)',
+            'Problem Solving - DP/Greedy/Recursion (`good first issue`)',
+            'General Algorithms (`good first issue` + `algorithm` label)',
+            'Neuro-Symbolic AI (rare, might not have good first issue label)',
+            'Data Structures - Trees/Heaps/Linked Lists (`good first issue`)',
+        ]
 
     print("Starting GitHub API Crawler for Algorithm/Architecture Issues...\n")
     print(f"Results will be saved to: {OUTPUT_FILE}\n")

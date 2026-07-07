@@ -1,0 +1,26 @@
+[
+  {
+    "query": "is:issue is:open no:assignee label:\"good first issue\" \"graph\" OR \"knowledge graph\" language:python",
+    "label": "Graph-based / Knowledge Graphs (`good first issue`)"
+  },
+  {
+    "query": "is:issue is:open no:assignee label:\"good first issue\" \"time complexity\" OR \"O(n)\" OR \"O(n^2)\" language:python",
+    "label": "Time Complexity & Big-O (`good first issue`)"
+  },
+  {
+    "query": "is:issue is:open no:assignee label:\"good first issue\" \"dynamic programming\" OR \"greedy\" OR \"recursion\" language:python",
+    "label": "Problem Solving - DP/Greedy/Recursion (`good first issue`)"
+  },
+  {
+    "query": "is:issue is:open no:assignee label:\"good first issue\" label:algorithm language:python",
+    "label": "General Algorithms (`good first issue` + `algorithm` label)"
+  },
+  {
+    "query": "is:issue is:open no:assignee \"neuro-symbolic\" OR \"symbolic reasoning\" language:python",
+    "label": "Neuro-Symbolic AI (rare, might not have good first issue label)"
+  },
+  {
+    "query": "is:issue is:open no:assignee label:\"good first issue\" \"tree\" OR \"heap\" OR \"linked list\" language:python",
+    "label": "Data Structures - Trees/Heaps/Linked Lists (`good first issue`)"
+  }
+]
