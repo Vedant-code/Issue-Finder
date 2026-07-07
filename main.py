@@ -118,6 +118,7 @@ def crawl_github_algorithm_issues():
     ]
 
     total_collected = 0
+    all_seen_ids: set[int] = set()
 
     for i, (query, label) in enumerate(zip(queries, query_labels), 1):
         print(f"\n=== Query {i}/{len(queries)}: {label} ===")
@@ -155,6 +156,10 @@ def crawl_github_algorithm_issues():
                     continue
                 seen_ids.add(issue["id"])
 
+                if issue["id"] not in all_seen_ids:
+                    all_seen_ids.add(issue["id"])
+                    total_collected += 1
+
                 repo_url = issue["repository_url"].replace(
                     "api.github.com/repos/", "github.com/"
                 )
@@ -169,7 +174,6 @@ def crawl_github_algorithm_issues():
 
                 new_issues += 1
                 query_count += 1
-                total_collected += 1
 
             print(f"  Page {page}: {new_issues} new issues (query total: {query_count} / {total_count} available)")
 
