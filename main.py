@@ -1,4 +1,5 @@
 import os
+import argparse
 import requests
 import time
 from datetime import datetime
@@ -156,4 +157,30 @@ def crawl_github_algorithm_issues():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Search GitHub for beginner-friendly algorithm/architecture issues."
+    )
+    parser.add_argument(
+        "--output", "-o",
+        default="results.md",
+        help="Output markdown file path (default: results.md)",
+    )
+    parser.add_argument(
+        "--per-page", "-n",
+        type=int,
+        default=10,
+        help="Results per page (default: 10)",
+    )
+    parser.add_argument(
+        "--max-pages", "-p",
+        type=int,
+        default=10,
+        help="Max pages to fetch per query (default: 10)",
+    )
+    args = parser.parse_args()
+
+    OUTPUT_FILE = args.output
+    RESULTS_PER_PAGE = args.per_page
+    MAX_PAGES = args.max_pages
+
     crawl_github_algorithm_issues()
