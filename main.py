@@ -41,6 +41,10 @@ def crawl_github_algorithm_issues():
 
     GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
+    if not GITHUB_TOKEN:
+        print("Warning: No GITHUB_TOKEN set. Unauthenticated requests are limited to 10 searches/minute.")
+        print("Set GITHUB_TOKEN in your environment for 30 searches/minute.\n")
+
     headers = {"Accept": "application/vnd.github.v3+json"}
     if GITHUB_TOKEN:
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
