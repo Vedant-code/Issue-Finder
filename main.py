@@ -1,5 +1,6 @@
 import os
 import json
+import argparse
 import requests
 import time
 from datetime import datetime
@@ -7,21 +8,56 @@ from datetime import datetime
 OUTPUT_FILE = "results.md"
 RESULTS_PER_PAGE = 10
 MAX_PAGES = 10  # GitHub Search API caps at 1000 results (100 pages x 10)
+_REQUEST_TIMEOUT = 30  # seconds
+
+# Shared rate-limit state: cached X-RateLimit-Reset timestamp (epoch seconds).
+# Used by _check_rate_limit_before_request() to pause before burning another call.
+_last_reset_time: int = 0
 
 def wait_for_rate_limit(response):
-    reset_ts = response.headers.get("X-RateLimit-Reset")
-    if reset_ts:
-        wait = max(0, int(reset_ts) - int(time.time())) + 2
+    global _last_reset_time
+
+    # Prefer retry-after (seconds), then X-RateLimit-Reset (epoch), then fallback
+    retry_after = response.headers.get("retry-after")
+    if retry_after and retry_after.isdigit():
+        wait = int(retry_after) + 2
+        reset_ts = response.headers.get("X-RateLimit-Reset")
+        if reset_ts:
+            _last_reset_time = int(reset_ts)
     else:
-        wait = 60
+        reset_ts = response.headers.get("X-RateLimit-Reset")
+        if reset_ts:
+            _last_reset_time = int(reset_ts)
+            wait = max(0, _last_reset_time - int(time.time())) + 2
+        else:
+            wait = 60
     print(f"Rate limit hit. Waiting {wait} seconds before retrying...")
     time.sleep(wait)
+
+def _check_rate_limit_before_request():
+    """Sleep until the cached rate-limit reset time, if we know one is pending."""
+    global _last_reset_time
+    now = int(time.time())
+    if _last_reset_time > now:
+        wait = _last_reset_time - now + 2
+        print(f"Rate limit window expired. Waiting {wait}s until GitHub resets quota...")
+        time.sleep(wait)
+
 
 def fetch_page(api_url, headers, params, retries=5):
     for attempt in range(1, retries + 1):
         try:
-            response = requests.get(api_url, headers=headers, params=params)
+            _check_rate_limit_before_request()
+            response = requests.get(api_url, headers=headers, params=params, timeout=_REQUEST_TIMEOUT)
             if response.status_code == 200:
+                # Check remaining quota from the response; pre-emptively
+                # cache reset time when we're about to run out.
+                remaining = response.headers.get("X-RateLimit-Remaining")
+                reset_ts = response.headers.get("X-RateLimit-Reset")
+                if remaining is not None and int(remaining) == 0 and reset_ts is not None:
+                    global _last_reset_time
+                    _last_reset_time = int(reset_ts)
+                    print(f"  Rate limit will be exhausted — waiting {_last_reset_time - int(time.time())}s before next request.")
                 return response
             elif response.status_code == 403:
                 wait_for_rate_limit(response)
@@ -31,8 +67,14 @@ def fetch_page(api_url, headers, params, retries=5):
             else:
                 print(f"Error {response.status_code}: {response.text}")
                 return None
+        except requests.exceptions.Timeout:
+            print(f"Request timed out (attempt {attempt}/{retries}). Retrying...")
+            time.sleep(5)
+        except requests.exceptions.ConnectionError as e:
+            print(f"Connection error (attempt {attempt}/{retries}): {e}")
+            time.sleep(10)
         except Exception as e:
-            print(f"Request error (attempt {attempt}/{retries}): {e}")
+            print(f"Unexpected request error (attempt {attempt}/{retries}): {e}")
             time.sleep(10)
     print("Max retries reached. Moving on.")
     return None
@@ -41,6 +83,10 @@ def crawl_github_algorithm_issues():
     API_URL = "https://api.github.com/search/issues"
 
     GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+
+    if not GITHUB_TOKEN:
+        print("Warning: No GITHUB_TOKEN set. Unauthenticated requests are limited to 10 searches/minute.")
+        print("Set GITHUB_TOKEN in your environment for 30 searches/minute.\n")
 
     headers = {"Accept": "application/vnd.github.v3+json"}
     if GITHUB_TOKEN:
@@ -80,6 +126,7 @@ def crawl_github_algorithm_issues():
     ]
 
     total_collected = 0
+    all_seen_ids: set[int] = set()
 
     for i, (query, label) in enumerate(zip(queries, query_labels), 1):
         print(f"\n=== Query {i}/{len(queries)}: {label} ===")
@@ -117,6 +164,10 @@ def crawl_github_algorithm_issues():
                     continue
                 seen_ids.add(issue["id"])
 
+                if issue["id"] not in all_seen_ids:
+                    all_seen_ids.add(issue["id"])
+                    total_collected += 1
+
                 repo_url = issue["repository_url"].replace(
                     "api.github.com/repos/", "github.com/"
                 )
@@ -131,7 +182,6 @@ def crawl_github_algorithm_issues():
 
                 new_issues += 1
                 query_count += 1
-                total_collected += 1
 
             print(f"  Page {page}: {new_issues} new issues (query total: {query_count} / {total_count} available)")
 
@@ -164,4 +214,30 @@ def crawl_github_algorithm_issues():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Search GitHub for beginner-friendly algorithm/architecture issues."
+    )
+    parser.add_argument(
+        "--output", "-o",
+        default="results.md",
+        help="Output markdown file path (default: results.md)",
+    )
+    parser.add_argument(
+        "--per-page", "-n",
+        type=int,
+        default=10,
+        help="Results per page (default: 10)",
+    )
+    parser.add_argument(
+        "--max-pages", "-p",
+        type=int,
+        default=10,
+        help="Max pages to fetch per query (default: 10)",
+    )
+    args = parser.parse_args()
+
+    OUTPUT_FILE = args.output
+    RESULTS_PER_PAGE = args.per_page
+    MAX_PAGES = args.max_pages
+
     crawl_github_algorithm_issues()
